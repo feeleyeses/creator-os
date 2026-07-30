@@ -2,6 +2,14 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
+  align-items: start;
+}
+
+.lesson-card,
+.language-card {
+  align-self: start;
+  height: auto;
+  min-height: 0;
 }
 
 .lesson-card .what-why,
@@ -99,10 +107,31 @@
   line-height: 1.65;
 }
 
+.lesson-chip-row,
+.tag-row,
+.actions {
+  align-items: flex-start;
+}
+
 .lesson-chip-row {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
+}
+
+.info-chip,
+.topic-chip,
+.tag,
+.chip,
+.action-button,
+.save-button,
+.remove-button,
+.text-button {
+  width: fit-content;
+  max-width: 100%;
+  height: auto;
+  align-self: flex-start;
+  white-space: normal;
 }
 
 .info-chip,
@@ -113,6 +142,7 @@
   border-radius: 999px;
   padding: 5px 9px;
   font-size: 12px;
+  line-height: 1.35;
   background: #edf1ea;
   color: var(--accent-dark);
 }
@@ -130,6 +160,7 @@
   padding-top: 14px;
   border-top: 1px solid var(--line);
   animation: appear .18s ease;
+  overflow-wrap: anywhere;
 }
 
 .lesson-block {
@@ -185,5 +216,9 @@
   .language-card .actions {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .language-card .actions > * {
+    width: 100%;
   }
 }
