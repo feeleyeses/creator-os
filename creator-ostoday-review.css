@@ -1,0 +1,88 @@
+/* Today review-fix pass */
+.today-focus h1 {
+  font-size: clamp(34px, 4.4vw, 58px);
+}
+
+.tag {
+  border: 0;
+  cursor: pointer;
+  transition: color .18s ease, background .18s ease;
+}
+
+.tag:hover,
+.tag:focus-visible {
+  color: var(--ink);
+  background: #dfe8dc;
+  outline: 2px solid rgba(95, 125, 102, 0.35);
+  outline-offset: 2px;
+}
+
+.source-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 7px 10px;
+  margin-top: 18px;
+  color: var(--faint);
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.source-link {
+  margin-top: 0;
+}
+
+.fresh-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fresh-card-body {
+  flex: 1;
+}
+
+.fresh-card-footer {
+  display: grid;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.content-image {
+  margin: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.content-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.content-image figcaption {
+  padding: 9px 10px;
+  color: var(--faint);
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.content-image a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.content-image a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 560px) {
+  .source-meta { justify-content: flex-start; text-align: left; }
+  .fresh-card { min-height: auto; }
+}
