@@ -1,86 +1,82 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-07-30",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-31T08:00:00+08:00",
+  "generatedAt": "2026-07-30T08:00:00+08:00",
   "today": {
     "focus": {
-      "id": "today-agentic-commerce-control",
+      "id": "today-ai-commerce",
       "page": "today",
       "source": "today",
       "category": "AI",
-      "subCategory": "Agentic commerce",
+      "subCategory": "E-commerce operations",
       "contentType": "Focus",
-      "title": "AI agent 正在把“搜索、比较、行动”连成一条购物路径",
-      "summary": "OpenAI、Google 和 Shopify 最近都把重点放在 agentic workflow：用户不只是得到答案，还会让系统继续比较商品、整理选择，甚至进入执行环节。对创作者和小品牌来说，新的竞争点不是把页面写得更满，而是把事实、边界和品牌判断做成机器也能读懂的结构。",
-      "what": "AI 工具正在从“生成内容”走向“帮用户完成任务”。ChatGPT agent 强调研究与行动的连接，Google Shopping 把 AI Mode 用到更复杂的购物比较，Shopify 则让商家管理 AI shopping assistants 能读取的品牌事实。",
-      "why": "当用户把更多选择交给 agent，品牌内容如果没有清楚的来源、规格、使用边界和差异点，就可能在机器整理信息时被弱化。未来的详情页、FAQ 和品牌叙事，需要同时服务人和 AI。",
-      "takeaway": "今天观察 AI commerce 时，先看三件事：谁在控制事实来源，谁能解释推荐理由，谁允许商家保留自己的品牌判断。",
-      "aiNote": "今天先看 agentic commerce，再把线索拆到搜索、创作者内容、店铺设计和语言学习里。",
+      "title": "AI 内容工具正在从效率工具变成货架基础设施",
+      "summary": "越来越多小品牌把 AI 用在商品图、标题测试、详情页说明和评论 FAQ 上。真正拉开差距的不是生成速度，而是品牌判断、证据路径和内容边界能否一起被系统化。",
+      "what": "AI 生成正在进入日常运营，而不是只作为一次性营销活动。",
+      "why": "当内容生产成本下降，用户更需要判断哪些信息可信、哪些只是包装。",
+      "takeaway": "观察 AI 工具时，不只看它能生成什么，也看它如何保留来源、边界和人工判断。",
+      "aiNote": "今天先用一个重点进入，再用 Daily Brief 建立观察方向。",
       "tags": [
         "AI",
         "E-commerce",
-        "agentic commerce"
+        "content system"
       ],
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-agent/?bbpage=1",
-      "sourceType": "official product announcement",
-      "author": "OpenAI",
-      "publishedAt": "2025-07-17",
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
       "visualImportance": 0,
       "relatedTags": [
         "AI",
-        "E-commerce",
-        "workflow"
+        "E-commerce"
       ],
       "relatedContentIds": [
         "obs-ai-product",
-        "obs-ecom-content-commerce",
-        "obs-design-ui"
+        "obs-ecom-product-page"
       ]
     },
     "brief": {
       "forYou": [
         {
-          "id": "brief-ai-mode-shopping",
+          "id": "brief-producer-tag",
+          "relatedObserveId": "obs-khh-music",
+          "category": "K-Hiphop",
+          "readTime": "2 min",
+          "title": "Producer tag 正在成为短视频里的声音 Logo",
+          "summary": "音色、producer tag 和第一句歌词，正在比副歌更早建立听众记忆。短视频传播让歌曲身份前移到前两秒。"
+        },
+        {
+          "id": "brief-xhs-search",
+          "relatedObserveId": "obs-self-xhs-search",
+          "category": "Self-media",
+          "readTime": "3 min",
+          "title": "小红书笔记越来越像可保存的搜索答案",
+          "summary": "高表现笔记会先回答具体问题，再用对比、经验和案例建立作者风格。搜索流量提高后，清晰答案更容易长尾曝光。"
+        },
+        {
+          "id": "brief-ai-source",
           "relatedObserveId": "obs-ai-product",
           "category": "AI",
           "readTime": "3 min",
-          "title": "AI Mode 购物结果开始承担“解释型导购”的角色",
-          "summary": "Google 把购物问题放进 AI Mode 后，重点不只是返回商品列表，而是把图片、价格、评论和库存组织成可比较的答案。品牌内容要更像证据库。"
-        },
-        {
-          "id": "brief-shopify-knowledge-base",
-          "relatedObserveId": "obs-ecom-content-commerce",
-          "category": "E-commerce",
-          "readTime": "3 min",
-          "title": "Shopify 让商家开始管理 AI 购物对话里的品牌事实",
-          "summary": "Summer 25 Edition 提到 Knowledge Base app：商家可以控制 AI shopping agents 读取哪些品牌事实。未来 FAQ 不是售后附属，而是 AI 入口。"
-        },
-        {
-          "id": "brief-youtube-creator-tools",
-          "relatedObserveId": "obs-self-youtube-retention",
-          "category": "Self-media",
-          "readTime": "2 min",
-          "title": "创作者工具越来越像“内容生产系统”，不只是拍摄辅助",
-          "summary": "YouTube 的创作者更新持续把灵感、剪辑、互动和变现放进同一条链路。对个人创作者来说，选题结构会比单点技巧更重要。"
+          "title": "AI 产品需要把来源路径做成界面能力",
+          "summary": "用户不只想看结论，还想知道哪些内容有依据、哪些是推断。来源路径会成为 AI 工具的信任基础。"
         }
       ],
       "trending": [
         {
-          "id": "brief-horizon-storefront",
-          "relatedObserveId": "obs-design-ui",
+          "id": "brief-packaging",
+          "relatedObserveId": "obs-design-packaging",
           "category": "Design",
           "readTime": "2 min",
-          "title": "AI 店铺设计的关键不是“自动生成”，而是让商家保留控制感",
-          "summary": "Shopify Horizon 强调可拖拽、可生成、可表达的 storefront。真正值得观察的是：AI 降低搭建成本后，品牌差异如何不被模板化。"
+          "title": "包装设计的信任感来自信息顺序",
+          "summary": "品牌、品类、核心利益和证明的阅读顺序，会直接影响用户是否觉得产品可靠。包装不是装饰，而是决策界面。"
         },
         {
-          "id": "brief-agent-orchestrator",
-          "relatedObserveId": "obs-ai-workflow",
-          "category": "AI",
+          "id": "brief-commerce-trust",
+          "relatedObserveId": "obs-ecom-trust",
+          "category": "E-commerce",
           "readTime": "3 min",
-          "title": "企业 AI 正在从单个助手变成多 agent 协作层",
-          "summary": "Adobe Agent Orchestrator 把多个专业 agent 放在一个协调层里。这个方向提醒我们：AI workflow 的核心会从“一个回答”转向“任务分派和边界管理”。"
+          "title": "电商信任线索正在从评论扩展到细节系统",
+          "summary": "尺码、退换、成分、对比图和使用边界共同降低购买风险。真正阻碍转化的常常是未回答的小疑问。"
         }
       ]
     },
@@ -149,25 +145,23 @@
       "source": "observe",
       "category": "Self-media",
       "subCategory": "YouTube",
-      "contentType": "observation",
+      "contentType": "comparison",
       "readingTime": "1 min",
-      "title": "创作者平台正在把灵感、制作和分发放进同一条链路",
-      "summary": "YouTube 的创作者更新持续强调从创意辅助到制作工具的整合，创作者需要更系统地设计内容流程。",
-      "what": "Made on YouTube 的更新方向显示，平台不只是在给创作者更多按钮，而是在把灵感发现、短视频制作、互动和变现串成更完整的生产链路。创作者面对的不再是单个工具，而是一套平台内工作台。",
-      "why": "当工具越来越集成，真正拉开差距的不是会不会使用某个功能，而是能不能把选题、开场、留存点和后续转化设计成稳定流程。个人创作者也需要像小团队一样管理内容系统。",
-      "takeaway": "不要把新工具当作“多一个功能”。先问它接在你的内容流程哪一环：找题、制作、发布、互动，还是复盘。",
+      "title": "YouTube 开场正在从寒暄变成观看契约",
+      "summary": "更有效的开场会快速说明看完视频能理解什么、避免什么误区、得到什么判断。",
+      "what": "过去许多视频用问候、背景和自我介绍开场；现在更强的开场会直接给出观看收益，例如告诉观众看完会解决哪个具体判断。",
+      "why": "用户在前十几秒判断视频是否值得继续。清晰的学习契约能降低离开成本，也让创作者的个性建立在有效信息之后。",
+      "takeaway": "把开场从“我是谁”改成“你会得到什么”。个性不是不要，而是放在承诺之后。",
       "tags": [
         "Self-media",
         "YouTube",
-        "creator workflow"
+        "retention"
       ],
-      "sourceName": "YouTube Official Blog",
-      "sourceUrl": "https://blog.youtube/news-and-events/made-on-youtube-2024/",
-      "sourceType": "official event announcement",
-      "author": "YouTube",
-      "publishedAt": "2024-09-18",
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
       "visualImportance": 0,
-      "practicalObservation": "平台越替你补齐流程，创作者越需要明确自己的判断标准，否则内容会被工具默认路径牵着走。"
+      "comparison": "A：大家好，今天聊聊我的拍摄经验。B：如果你总觉得照片不高级，先看这三个构图错误。B 更像契约。"
     },
     {
       "id": "obs-self-content-pillars",
@@ -329,23 +323,25 @@
       "subCategory": "Web/UI",
       "contentType": "comparison",
       "readingTime": "1 min",
-      "title": "AI 店铺设计需要在“生成快”和“可控”之间找平衡",
-      "summary": "Shopify Horizon 的设计方向提醒我们：AI-native storefront 不应该只追求自动生成，而要让商家保留表达和调整能力。",
-      "what": "Shopify 关于 Horizon 的设计文章强调，AI 带来更多可能性，但没有目的的可能性会变成混乱。Horizon 把主题基础、可定制模块和 AI 生成放在一起，目标是让商家更快表达品牌。",
-      "why": "当任何人都能快速生成页面，差异不再来自“有没有页面”，而来自是否能控制阅读顺序、品牌语气和购物判断。UI 需要让 AI 变成加速器，而不是把店铺推向同质模板。",
-      "takeaway": "看 AI 设计工具时，问两个问题：它生成得快吗？它允许你保留足够多的品牌判断吗？第二个问题更关键。",
+      "title": "好用的 UI 安静，是因为选择被收束了",
+      "summary": "信息密集不必等于混乱。工具界面如果每屏只强调一个主要任务，就能在密度和冷静之间取得平衡。",
+      "what": "很多产品把所有能力一次摆出来，用户会被迫同时理解导航、筛选、状态和下一步动作。成熟 UI 会把决策分层：先看状态，再选范围，最后行动。",
+      "why": "重复使用的工具最怕每次都重新思考。选择被收束后，用户会形成肌肉记忆。",
+      "takeaway": "设计工具界面时，先问这一屏的主动作是什么；次要动作可以存在，但不要和主动作抢同一层级。",
       "tags": [
         "Design",
         "UI",
-        "Shopify"
+        "workflow"
       ],
-      "sourceName": "Shopify",
-      "sourceUrl": "https://www.shopify.com/news/summer-25-edition-design",
-      "sourceType": "official design article",
-      "author": "Shopify",
-      "publishedAt": "2025-05-23",
-      "visualImportance": 0,
-      "comparison": "A：输入一句话生成完整页面，但很难改。B：先生成结构，再允许商家调整模块和重点。B 更适合长期品牌。"
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wireframe_Example.jpg",
+      "sourceType": "image reference",
+      "visualImportance": 1,
+      "comparison": "A：所有按钮同等突出。B：主动作清晰，其他控制安静靠后。B 不一定更少，但更容易使用。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wireframe_Example.jpg?width=960",
+      "imageAlt": "A webpage wireframe showing layout blocks and interface hierarchy.",
+      "imageCredit": "BadSprad, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wireframe_Example.jpg"
     },
     {
       "id": "obs-khh-music",
@@ -477,25 +473,23 @@
       "source": "observe",
       "category": "AI",
       "subCategory": "Workflow",
-      "contentType": "case-study",
+      "contentType": "breakdown",
       "readingTime": "1 min",
-      "title": "多 agent 协作会让工作流设计重新变重要",
-      "summary": "Adobe 的 Agent Orchestrator 把多个专业 agent 组织到一个协调层，重点从“单个助手聪明”转向“任务如何被分派”。",
-      "what": "Adobe Experience Platform Agent Orchestrator 的说明里，AI Assistant 会理解自然语言请求，再调用不同专业 agent，例如 audience、journey、experimentation 或 data insights agent。用户看到的是一个入口，背后是任务拆分。",
-      "why": "这类系统的价值不只来自模型能力，还来自工作流边界：什么任务交给哪个 agent，哪些结果需要合并，哪些步骤必须有人类确认。对内容和运营团队来说，未来要设计的是“可被 agent 接手的流程”。",
-      "takeaway": "把自己的工作流写清楚：输入是什么、判断标准是什么、产出交给谁。越清楚，越容易被 AI 稳定协作。",
+      "title": "AI workflow 的价值始于任务边界",
+      "summary": "关键不是工具能做多少，而是它应该做什么、停在哪里、何时把判断交还给人。",
+      "what": "一个好 workflow 会先定义输入、输出、检查点和人工判断位置。没有边界的 AI 流程容易生成更多内容，却没有减少真正的决策负担。",
+      "why": "用户信任的不是永远继续生成的工具，而是知道什么时候停止、什么时候提示不确定、什么时候要求人确认的工具。",
+      "takeaway": "优化 prompt 前，先定义交接点：哪一步交给 AI，哪一步必须由人决定。",
       "tags": [
         "AI",
         "workflow",
-        "agent orchestration"
+        "judgment"
       ],
-      "sourceName": "Adobe Experience League",
-      "sourceUrl": "https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator?lang=en",
-      "sourceType": "official documentation",
-      "author": "Adobe",
-      "publishedAt": "2026-04-02",
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
       "visualImportance": 0,
-      "mechanism": "orchestrator 的核心不是一个万能 agent，而是把任务路由给更合适的专业 agent，并把结果重新组织给用户。"
+      "mechanism": "边界越清楚，输出越容易被检查；输出越容易被检查，工具越可能进入日常使用。"
     },
     {
       "id": "obs-ai-tool",
@@ -527,25 +521,27 @@
       "source": "observe",
       "category": "AI",
       "subCategory": "Product",
-      "contentType": "breakdown",
+      "contentType": "case-study",
       "readingTime": "1 min",
-      "title": "AI 产品的下一层竞争是“行动前的可解释路径”",
-      "summary": "ChatGPT agent 的产品叙事不只强调回答质量，而是强调从研究、浏览、文件处理到行动的连续流程。",
-      "what": "OpenAI 把 ChatGPT agent 描述为连接 research and action 的产品：它可以在虚拟浏览器中查看网页、处理文件、执行表单或表格类任务，同时要求用户保持控制。这个方向把 AI 从“问答框”推进到“任务执行界面”。",
-      "why": "一旦 AI 能行动，用户真正关心的就变成：它基于什么信息行动、在哪里需要确认、错误如何被发现。产品设计的重点会从生成速度转向可追溯路径、权限边界和人工确认。",
-      "takeaway": "评价 agent 产品时，不要只问它能不能完成任务；先看它有没有留下足够清楚的证据路径和中途刹车点。",
+      "title": "AI UI 应该暴露信心和来源路径",
+      "summary": "用户不只需要答案，也需要知道哪些内容有来源、哪些是推断、哪些仍然不确定。",
+      "what": "当 AI 给出建议、摘要或分析时，如果界面只展示结论，用户很难判断该相信到什么程度。更好的设计会把来源、置信程度和不确定部分放进次级元信息。",
+      "why": "这能避免生成文本像没有依据的权威。用户可以先读结论，再在需要时追溯依据。",
+      "takeaway": "把来源做成界面层级，而不是堆成免责声明。可追溯比长篇解释更能建立信任。",
       "tags": [
         "AI",
-        "agent",
-        "product"
+        "UI",
+        "source"
       ],
-      "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/index/introducing-chatgpt-agent/?bbpage=1",
-      "sourceType": "official product announcement",
-      "author": "OpenAI",
-      "publishedAt": "2025-07-17",
-      "visualImportance": 0,
-      "mechanism": "agentic 产品会把“理解、计划、执行、确认”压缩到同一体验里。越连续，越需要明确的控制权设计。"
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230625_09_11_50-Greenshot_crop.png",
+      "sourceType": "image reference",
+      "visualImportance": 1,
+      "example": "一个内容研究工具如果能标注来自原文、来自模型推断、需要人工确认，用户会更容易把它纳入工作流。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/20230625_09_11_50-Greenshot_crop.png?width=960",
+      "imageAlt": "GPT4All interface screenshot showing model selection and local AI chat workflow UI.",
+      "imageCredit": "Wikimedia Commons contributors, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20230625_09_11_50-Greenshot_crop.png"
     },
     {
       "id": "obs-ai-industry",
@@ -629,25 +625,23 @@
       "source": "observe",
       "category": "E-commerce",
       "subCategory": "Content commerce",
-      "contentType": "breakdown",
-      "readingTime": "1 min",
-      "title": "AI shopping agents 会把 FAQ 变成品牌基础设施",
-      "summary": "Shopify Summer 25 Edition 提到 Knowledge Base app，让商家控制 AI 购物助手能读取的品牌事实。",
-      "what": "Shopify 在 Summer 25 Edition 中写到，随着 AI shopping assistants 变得常见，商家可以通过 Knowledge Base app 定制 AI 对品牌和商品的回答。也就是说，AI 购物对话里的事实来源开始成为商家可管理的资产。",
-      "why": "过去 FAQ 常被放在页面底部，像售后补充；现在它可能成为 agent 理解品牌、商品边界和差异点的入口。内容越清楚，越不容易被外部 AI 用模糊描述替代。",
-      "takeaway": "把 FAQ 当作“给人和 AI 共同读取的事实层”：适合谁、不适合谁、材料是什么、证据在哪里，都要写清楚。",
+      "contentType": "observation",
+      "readingTime": "45 sec",
+      "title": "内容电商成立的前提是内容本身有用",
+      "summary": "只推商品的帖子会显得薄；有用的上下文会先建立信任，再让产品链接变得合理。",
+      "what": "表现更好的内容电商通常先提供一个判断视角，例如怎么比较、怎么使用、哪些人不适合，然后才出现商品。",
+      "why": "用户抵触的不是商业，而是没有理解就被要求购买。内容如果能先解决一个小问题，销售动作会更自然。",
+      "takeaway": "先给一个有用 lens，再给产品链接。不要让商品成为内容存在的唯一理由。",
       "tags": [
         "E-commerce",
-        "AI",
-        "FAQ"
+        "content commerce",
+        "trust"
       ],
-      "sourceName": "Shopify",
-      "sourceUrl": "https://www.shopify.com/news/summer-25-edition-merchant",
-      "sourceType": "official announcement",
-      "author": "Shopify",
-      "publishedAt": "2025-05-21",
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
       "visualImportance": 0,
-      "implication": "未来内容 commerce 的胜负，不只是短视频能不能种草，也包括 AI 是否能准确理解并复述你的商品。"
+      "mechanism": "这也要求创作者更像编辑：先筛选值得讲的理由，再决定卖什么。"
     },
     {
       "id": "obs-ecom-trust",
@@ -732,45 +726,44 @@
         "page": "language",
         "source": "language",
         "category": "Language",
-        "sourceName": "Cambridge Dictionary",
-        "sourceUrl": "https://dictionary.cambridge.org/dictionary/english/thread-the-needle",
+        "sourceName": "Cambridge Dictionary: shape",
+        "sourceUrl": "https://dictionary.cambridge.org/us/dictionary/english/shape",
         "sourceType": "dictionary",
-        "author": "",
+        "author": "Cambridge University Press",
         "publishedAt": "",
-        "id": "en-thread-the-needle",
+        "id": "en-shaping-idea",
         "language": "English",
         "contentType": "Expression",
-        "difficulty": "CET-6+",
-        "expression": "thread the needle",
-        "translation": "在两种限制之间找到很窄但可行的平衡点。",
-        "shortExplanation": "它不是普通的“平衡”，而是强调空间很窄、判断要精准。",
-        "realContext": "适合说产品策略、设计取舍、品牌表达或团队沟通。",
-        "usage": "当你想表达“既不能太保守，也不能太冒险，必须穿过中间那条窄路”时使用。",
-        "whenNotToUse": "如果只是普通折中，不需要用这个表达；它会让语气显得更紧张、更策略化。",
+        "difficulty": "Intermediate",
+        "expression": "I'm still shaping the idea.",
+        "translation": "我还在把这个想法整理成型。",
+        "shortExplanation": "用来说明你不是没有想法，而是还在整理结构和表达方式。",
+        "realContext": "内容策划、设计讨论、项目早期沟通。",
+        "usage": "适合在想法未定稿时使用，比 I don't know 更主动。",
+        "whenNotToUse": "如果完全没有方向，或对方需要立即明确答案，就不要用它拖延。",
         "vocabulary": [
           {
-            "term": "thread",
-            "meaning": "穿线；这里带有穿过狭小空间的感觉。"
-          },
-          {
-            "term": "needle",
-            "meaning": "针；强调可通过的位置很小。"
+            "term": "shape",
+            "meaning": "使想法成型，整理方向。"
           }
         ],
-        "grammarPoints": [],
+        "grammarPoints": [
+          {
+            "point": "be still + -ing",
+            "explanation": "强调动作仍在进行，语气比一般现在时更柔和。"
+          }
+        ],
         "examples": [
           {
-            "original": "The product team has to thread the needle between automation and user control.",
-            "translation": "产品团队必须在自动化和用户控制之间找到很窄但可行的平衡点。",
-            "note": "这里不是说平均分配，而是说两边都不能失手。"
+            "original": "I'm still shaping the idea, but the core is about reducing reading pressure.",
+            "translation": "我还在整理这个想法，但核心是降低阅读压力。"
           }
         ],
-        "nuance": "这个表达适合复杂取舍，比 find a balance 更有压力和策略感。",
-        "aiNote": "今天的 agentic commerce 主题很适合这个表达：AI 要更主动，但也不能夺走用户控制权。",
+        "nuance": "shaping 暗示你正在做判断和取舍，不是随便想想。",
+        "aiNote": "这类表达能保护未完成思考，同时保留推进感。",
         "tags": [
-          "Expression",
-          "Business",
-          "Nuance"
+          "Creator",
+          "collocation"
         ]
       },
       {
@@ -1061,50 +1054,44 @@
         "page": "language",
         "source": "language",
         "category": "Language",
-        "sourceName": "Wiktionary",
-        "sourceUrl": "https://en.wiktionary.org/wiki/%EB%88%88%EC%B9%98",
-        "sourceType": "dictionary",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
         "author": "",
         "publishedAt": "",
-        "id": "ko-nunchi-context",
+        "id": "ko-not-my-taste",
         "language": "Korean",
-        "contentType": "Culture",
-        "difficulty": "TOPIK 3-4",
-        "expression": "눈치가 빠르다",
-        "translation": "有眼力见；很会察言观色。",
-        "shortExplanation": "눈치 指读懂气氛、关系和时机的能力，빠르다 表示反应快。",
-        "realContext": "适合综艺、采访、职场和粉丝讨论里形容一个人很会看场合。",
-        "usage": "当你想说某人能很快读懂别人没明说的情绪或局面时使用。",
-        "whenNotToUse": "不要把 눈치 理解成视力，也不要在正式评价中过度使用这种带文化判断的词。",
+        "contentType": "Expression",
+        "difficulty": "TOPIK 2-3",
+        "expression": "제 취향은 아니에요.",
+        "translation": "这不太是我的取向 / 不是我的菜。",
+        "shortExplanation": "礼貌表达“不喜欢”，但不把对象评价成不好。",
+        "realContext": "聊音乐、穿搭、设计、食物时都能用。",
+        "usage": "想保持礼貌和距离时使用。",
+        "whenNotToUse": "正式评价里需要给客观理由时，不要只说这句。",
         "vocabulary": [
           {
-            "term": "눈치",
-            "meaning": "察言观色、读气氛的能力。"
-          },
-          {
-            "term": "빠르다",
-            "meaning": "快；这里指反应快、读局势快。"
+            "term": "취향",
+            "meaning": "取向、偏好、审美口味。"
           }
         ],
         "grammarPoints": [
           {
-            "point": "noun + 이/가 빠르다",
-            "explanation": "用来评价某种能力或反应很快。"
+            "point": "noun + 은/는 아니에요",
+            "explanation": "表示“不是某种东西/类型”，语气比 싫어요 更柔和。"
           }
         ],
         "examples": [
           {
-            "original": "그 사람은 눈치가 빨라서 분위기를 잘 읽어요.",
-            "translation": "那个人很有眼力见，很会读气氛。",
-            "note": "常用于评价社交判断，而不是单纯聪明。"
+            "original": "이 노래가 나쁘다는 건 아닌데, 제 취향은 아니에요.",
+            "translation": "不是说这首歌不好，但不太是我的取向。"
           }
         ],
-        "nuance": "눈치 带有很强的关系语境，直接翻成 sense 或 awareness 都不完整。",
-        "aiNote": "理解 눈치 能帮助你听懂韩语综艺、采访和评论区里对人际判断的评价。",
+        "nuance": "취향 带有身份和审美倾向，不只是简单喜欢。",
+        "aiNote": "K-pop/K-Hiphop 讨论里很常用，因为很多评价其实是在说取向。",
         "tags": [
           "Culture",
-          "Nuance",
-          "Interview"
+          "K-Hiphop"
         ]
       },
       {
