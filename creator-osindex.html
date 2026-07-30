@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creator OS</title>
+  <link rel="stylesheet" href="creator-osstyle.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <div>
+        <a class="brand" href="#today" data-page="today" aria-label="Creator OS Today">
+          <span>Creator</span>
+          <strong>OS</strong>
+        </a>
+        <p class="brand-line">A place to understand the world.</p>
+      </div>
+
+      <nav class="nav-list">
+        <a class="nav-item active" href="#today" data-page="today">Today</a>
+        <a class="nav-item" href="#observe" data-page="observe">Observe</a>
+        <a class="nav-item" href="#language" data-page="language">Language</a>
+        <a class="nav-item" href="#library" data-page="library">Library</a>
+      </nav>
+
+      <div class="sidebar-note">
+        <span>Local MVP</span>
+        <small>Saved taste and library stay in this browser.</small>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section class="page active" id="today" aria-labelledby="today-title"></section>
+      <section class="page" id="observe" aria-labelledby="observe-title"></section>
+      <section class="page" id="language" aria-labelledby="language-title"></section>
+      <section class="page" id="library" aria-labelledby="library-title"></section>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a class="mobile-nav-item active" href="#today" data-page="today">Today</a>
+    <a class="mobile-nav-item" href="#observe" data-page="observe">Observe</a>
+    <a class="mobile-nav-item" href="#language" data-page="language">Language</a>
+    <a class="mobile-nav-item" href="#library" data-page="library">Library</a>
+  </nav>
+
+  <script src="creator-osscript.js"></script>
+</body>
+</html>
