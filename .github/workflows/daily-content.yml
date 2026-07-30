@@ -1,0 +1,49 @@
+﻿name: Daily Content
+
+on:
+  schedule:
+    # GitHub Actions cron is UTC. 00:00 UTC = 08:00 Asia/Shanghai.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: creator-os-daily-content
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run daily content update
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+        run: node scripts/update-daily-content.mjs
+
+      - name: Validate content
+        run: node scripts/validate-content.mjs content/current.json
+
+      - name: Commit valid content changes
+        run: |
+          if git diff --quiet -- content/current.json content/archive; then
+            echo "No valid content changes to commit."
+            exit 0
+          fi
+          DATE=$(node -e "console.log(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()))")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/current.json content/archive
+          git commit -m "content(daily): update Creator OS for ${DATE}"
+          git push

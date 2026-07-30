@@ -1,0 +1,1430 @@
+{
+  "date": "2026-07-30",
+  "timezone": "Asia/Shanghai",
+  "generatedAt": "2026-07-30T08:00:00+08:00",
+  "today": {
+    "focus": {
+      "id": "today-ai-commerce",
+      "page": "today",
+      "source": "today",
+      "category": "AI",
+      "subCategory": "E-commerce operations",
+      "contentType": "Focus",
+      "title": "AI 内容工具正在从效率工具变成货架基础设施",
+      "summary": "越来越多小品牌把 AI 用在商品图、标题测试、详情页说明和评论 FAQ 上。真正拉开差距的不是生成速度，而是品牌判断、证据路径和内容边界能否一起被系统化。",
+      "what": "AI 生成正在进入日常运营，而不是只作为一次性营销活动。",
+      "why": "当内容生产成本下降，用户更需要判断哪些信息可信、哪些只是包装。",
+      "takeaway": "观察 AI 工具时，不只看它能生成什么，也看它如何保留来源、边界和人工判断。",
+      "aiNote": "今天先用一个重点进入，再用 Daily Brief 建立观察方向。",
+      "tags": [
+        "AI",
+        "E-commerce",
+        "content system"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "relatedTags": [
+        "AI",
+        "E-commerce"
+      ],
+      "relatedContentIds": [
+        "obs-ai-product",
+        "obs-ecom-product-page"
+      ]
+    },
+    "brief": {
+      "forYou": [
+        {
+          "id": "brief-producer-tag",
+          "relatedObserveId": "obs-khh-music",
+          "category": "K-Hiphop",
+          "readTime": "2 min",
+          "title": "Producer tag 正在成为短视频里的声音 Logo",
+          "summary": "音色、producer tag 和第一句歌词，正在比副歌更早建立听众记忆。短视频传播让歌曲身份前移到前两秒。"
+        },
+        {
+          "id": "brief-xhs-search",
+          "relatedObserveId": "obs-self-xhs-search",
+          "category": "Self-media",
+          "readTime": "3 min",
+          "title": "小红书笔记越来越像可保存的搜索答案",
+          "summary": "高表现笔记会先回答具体问题，再用对比、经验和案例建立作者风格。搜索流量提高后，清晰答案更容易长尾曝光。"
+        },
+        {
+          "id": "brief-ai-source",
+          "relatedObserveId": "obs-ai-product",
+          "category": "AI",
+          "readTime": "3 min",
+          "title": "AI 产品需要把来源路径做成界面能力",
+          "summary": "用户不只想看结论，还想知道哪些内容有依据、哪些是推断。来源路径会成为 AI 工具的信任基础。"
+        }
+      ],
+      "trending": [
+        {
+          "id": "brief-packaging",
+          "relatedObserveId": "obs-design-packaging",
+          "category": "Design",
+          "readTime": "2 min",
+          "title": "包装设计的信任感来自信息顺序",
+          "summary": "品牌、品类、核心利益和证明的阅读顺序，会直接影响用户是否觉得产品可靠。包装不是装饰，而是决策界面。"
+        },
+        {
+          "id": "brief-commerce-trust",
+          "relatedObserveId": "obs-ecom-trust",
+          "category": "E-commerce",
+          "readTime": "3 min",
+          "title": "电商信任线索正在从评论扩展到细节系统",
+          "summary": "尺码、退换、成分、对比图和使用边界共同降低购买风险。真正阻碍转化的常常是未回答的小疑问。"
+        }
+      ]
+    },
+    "continueLearning": [
+      "en-shaping-idea",
+      "ko-kind-of",
+      "obs-ai-product"
+    ]
+  },
+  "observe": [
+    {
+      "id": "obs-self-xhs-search",
+      "page": "observe",
+      "source": "observe",
+      "category": "Self-media",
+      "subCategory": "Xiaohongshu",
+      "contentType": "breakdown",
+      "readingTime": "1 min",
+      "title": "小红书笔记越来越像可保存的搜索答案",
+      "summary": "越来越多高表现笔记会先明确回答一个具体问题，再通过案例、对比和个人经验建立作者风格。",
+      "what": "平台搜索流量提高后，笔记不再只服务即时种草，也在服务长期检索。一个强笔记通常先给出清晰问题，再用步骤、对比图或经验判断降低理解成本。",
+      "why": "这改变了自媒体写作的重心：标题不只是吸引点击，正文也要像答案页一样可复用。越能持续解决具体问题，越容易获得长尾收藏和二次搜索曝光。",
+      "takeaway": "写笔记时先问：用户保存这条内容，是为了以后解决哪一个问题？如果答案不清楚，就先收窄问题。",
+      "tags": [
+        "Self-media",
+        "Xiaohongshu",
+        "search"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "搜索型内容的机制是问题明确、证据可见、经验可信。作者风格不会消失，而是出现在筛选标准和判断过程里。"
+    },
+    {
+      "id": "obs-self-instagram-carousel",
+      "page": "observe",
+      "source": "observe",
+      "category": "Self-media",
+      "subCategory": "Instagram",
+      "contentType": "gallery",
+      "readingTime": "1 min",
+      "title": "Instagram carousel 正在变成迷你编辑稿",
+      "summary": "轮播不只是多图展示，而是把一个观点拆成多个可滑动段落。",
+      "what": "很多创作者把 carousel 当作轻量文章：第一页建立问题，后面用分镜展示论点、证据、例子和结论。用户每一次滑动都像继续读下一段。",
+      "why": "复杂观点不必依赖很长 caption，也能在信息流里完成解释。对创作者来说，保存率往往来自结构，而不是单张视觉图的漂亮程度。",
+      "takeaway": "规划 carousel 时，不要先想放几张图，先写出每一页承担的功能。",
+      "tags": [
+        "Self-media",
+        "Instagram",
+        "carousel"
+      ],
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Instagram_app_on_smartphone.jpg",
+      "sourceType": "image reference",
+      "visualImportance": 1,
+      "practicalObservation": "如果第三页以后没有新信息，用户会感到被拖长；如果每页都有微小推进，轮播会像一篇短编辑稿。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Instagram_app_on_smartphone.jpg?width=960",
+      "imageAlt": "Instagram app displayed on a smartphone, showing feed-based visual reading behavior.",
+      "imageCredit": "Santeri Viinamaki, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Instagram_app_on_smartphone.jpg"
+    },
+    {
+      "id": "obs-self-youtube-retention",
+      "page": "observe",
+      "source": "observe",
+      "category": "Self-media",
+      "subCategory": "YouTube",
+      "contentType": "comparison",
+      "readingTime": "1 min",
+      "title": "YouTube 开场正在从寒暄变成观看契约",
+      "summary": "更有效的开场会快速说明看完视频能理解什么、避免什么误区、得到什么判断。",
+      "what": "过去许多视频用问候、背景和自我介绍开场；现在更强的开场会直接给出观看收益，例如告诉观众看完会解决哪个具体判断。",
+      "why": "用户在前十几秒判断视频是否值得继续。清晰的学习契约能降低离开成本，也让创作者的个性建立在有效信息之后。",
+      "takeaway": "把开场从“我是谁”改成“你会得到什么”。个性不是不要，而是放在承诺之后。",
+      "tags": [
+        "Self-media",
+        "YouTube",
+        "retention"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "comparison": "A：大家好，今天聊聊我的拍摄经验。B：如果你总觉得照片不高级，先看这三个构图错误。B 更像契约。"
+    },
+    {
+      "id": "obs-self-content-pillars",
+      "page": "observe",
+      "source": "observe",
+      "category": "Self-media",
+      "subCategory": "Content strategy",
+      "contentType": "breakdown",
+      "readingTime": "1 min",
+      "title": "内容支柱应该像视角，而不是固定栏目",
+      "summary": "僵硬的内容支柱会让账号重复；好的内容视角能让同一主题服务不同用户任务。",
+      "what": "很多账号把支柱理解成固定栏目，例如教程、生活、产品。更有效的做法是按用户任务组织：学习、比较、决定、应用、收藏。",
+      "why": "用户不是为了栏目而来，而是为了完成一个理解动作。用任务定义内容，既能保持账号一致性，也能避免每条内容像换皮模板。",
+      "takeaway": "为每个主题写五个视角：怎么入门、如何比较、何时购买、怎样应用、值得收藏什么。",
+      "tags": [
+        "Self-media",
+        "strategy",
+        "creator"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "视角型支柱把创作者的判断变成可复用框架。用户记住的不是栏目名，而是你总能帮他们更快看懂问题。"
+    },
+    {
+      "id": "obs-self-creator-business",
+      "page": "observe",
+      "source": "observe",
+      "category": "Self-media",
+      "subCategory": "Creator business",
+      "contentType": "case-study",
+      "readingTime": "1 min",
+      "title": "创作者产品需要先解释使用场景，再进入销售",
+      "summary": "模板、课程和指南类产品不是越快展示价格越好，用户需要先判断它是不是为当前问题准备的。",
+      "what": "表现更好的创作者产品页，往往像短文章：先定义问题，再说明适合谁、不适合谁、如何使用，最后才是购买动作。",
+      "why": "数字产品没有实体触感，信任来自场景解释。用户越能想象自己如何使用，就越容易理解价值。",
+      "takeaway": "销售前先回答四件事：谁适合、解决什么、怎么用、边界在哪里。讲清楚边界反而会增加信任。",
+      "tags": [
+        "Self-media",
+        "creator business",
+        "digital product"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "example": "一个 Notion 模板如果只说提升效率会显得空；如果说明适合每周做内容复盘的独立创作者，用户更容易判断是否购买。"
+    },
+    {
+      "id": "obs-design-packaging",
+      "page": "observe",
+      "source": "observe",
+      "category": "Design",
+      "subCategory": "Packaging",
+      "contentType": "case-study",
+      "readingTime": "1 min",
+      "title": "包装信任来自信息层级，而不是更满的视觉",
+      "summary": "好的包装让用户不用导读，就能看见品牌、品类、核心利益和证明。",
+      "what": "包装像一个小型决策界面。用户通常先看品牌和品类，再看功效、规格、成分或使用场景。如果这些顺序混乱，产品会显得不可靠。",
+      "why": "货架和电商缩略图都在压缩阅读时间。清晰层级能让用户快速判断这是什么、适不适合我、为什么可信。",
+      "takeaway": "分析包装时先列阅读路径，而不是先评价好不好看：第一眼读到什么，第二眼确认什么，第三眼获得什么证明。",
+      "tags": [
+        "Design",
+        "packaging",
+        "trust"
+      ],
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Box_of_Korean_cosmetics.jpg",
+      "sourceType": "image reference",
+      "visualImportance": 2,
+      "example": "低饱和色不自动等于高级。真正让包装安静的是层级清晰、留白合理、信息不互相抢夺。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Box_of_Korean_cosmetics.jpg?width=960",
+      "imageAlt": "Korean cosmetics packaging arranged in a green product box.",
+      "imageCredit": "Teemeah, CC BY-SA 3.0, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Box_of_Korean_cosmetics.jpg"
+    },
+    {
+      "id": "obs-design-typography",
+      "page": "observe",
+      "source": "observe",
+      "category": "Design",
+      "subCategory": "Typography",
+      "contentType": "gallery",
+      "readingTime": "1 min",
+      "title": "韩文字体的文化感来自组合、间距和节奏",
+      "summary": "韩文字体不只是字形选择，它能通过字块密度、留白和排列方式传递现代、怀旧、街头或高级感。",
+      "what": "同样的韩文词，在紧密组合、宽松排列、粗笔画或细笔画中会呈现不同语气。很多品牌视觉会用字体先建立文化氛围，再用颜色补充情绪。",
+      "why": "对中文使用者来说，韩文字体常被看成异域装饰。但真正的设计判断在于字形如何组织阅读节奏。",
+      "takeaway": "看韩文视觉时，不要只问字体名。观察字距、行距、字块大小和它与图片的关系。",
+      "tags": [
+        "Design",
+        "typography",
+        "Korea"
+      ],
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:3_Korean_Samples.png",
+      "sourceType": "image reference",
+      "visualImportance": 2,
+      "practicalObservation": "Hangeul 的方块结构让排版本身具有节奏感，因此适合在封面、包装和海报中承担强识别角色。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/3%20Korean%20Samples.png?width=960",
+      "imageAlt": "Three samples of Korean typography showing different Hangul letterform treatments.",
+      "imageCredit": "Wikimedia Commons contributors, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:3_Korean_Samples.png"
+    },
+    {
+      "id": "obs-design-branding",
+      "page": "observe",
+      "source": "observe",
+      "category": "Design",
+      "subCategory": "Branding",
+      "contentType": "observation",
+      "readingTime": "45 sec",
+      "title": "安静品牌也需要一个可记忆信号",
+      "summary": "极简品牌失败时，常常不是因为不够美，而是因为所有元素都太安静。",
+      "what": "许多品牌追求低饱和、细字体和大量留白，但如果没有一个可重复的形状、语言钩子或材质线索，系统会变成通用模板。",
+      "why": "品牌识别依赖对比。越安静的系统，越需要一个稳定记忆点来承担识别工作。",
+      "takeaway": "问自己：当颜色和版式变化后，用户还能凭什么认出这个品牌？",
+      "tags": [
+        "Design",
+        "branding",
+        "identity"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "记忆信号不一定是 logo，也可能是标题语气、图片裁切方式、包装开口或某个反复出现的词。"
+    },
+    {
+      "id": "obs-design-editorial",
+      "page": "observe",
+      "source": "observe",
+      "category": "Design",
+      "subCategory": "Editorial design",
+      "contentType": "breakdown",
+      "readingTime": "1 min",
+      "title": "编辑式版式的核心是降低阅读压力",
+      "summary": "留白、短摘要和清晰段落节奏不是装饰，而是在帮读者决定先读哪里、跳过哪里、保存哪里。",
+      "what": "复杂主题如果被堆成整块文字，读者会先感到负担。编辑式版式通过标题、导语、小节和引用，把理解路径切成可进入的层级。",
+      "why": "用户并不总是缺少兴趣，更多时候是缺少进入方式。版式能让内容先显得可读，才有机会被认真读完。",
+      "takeaway": "如果内容很密，先减轻入口压力：短导语、明确小标题、段落之间给出呼吸。",
+      "tags": [
+        "Design",
+        "editorial",
+        "readability"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "Creator OS 本身也需要这个原则：少一点堆句，多一点让用户知道下一眼该看哪里。"
+    },
+    {
+      "id": "obs-design-ui",
+      "page": "observe",
+      "source": "observe",
+      "category": "Design",
+      "subCategory": "Web/UI",
+      "contentType": "comparison",
+      "readingTime": "1 min",
+      "title": "好用的 UI 安静，是因为选择被收束了",
+      "summary": "信息密集不必等于混乱。工具界面如果每屏只强调一个主要任务，就能在密度和冷静之间取得平衡。",
+      "what": "很多产品把所有能力一次摆出来，用户会被迫同时理解导航、筛选、状态和下一步动作。成熟 UI 会把决策分层：先看状态，再选范围，最后行动。",
+      "why": "重复使用的工具最怕每次都重新思考。选择被收束后，用户会形成肌肉记忆。",
+      "takeaway": "设计工具界面时，先问这一屏的主动作是什么；次要动作可以存在，但不要和主动作抢同一层级。",
+      "tags": [
+        "Design",
+        "UI",
+        "workflow"
+      ],
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wireframe_Example.jpg",
+      "sourceType": "image reference",
+      "visualImportance": 1,
+      "comparison": "A：所有按钮同等突出。B：主动作清晰，其他控制安静靠后。B 不一定更少，但更容易使用。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wireframe_Example.jpg?width=960",
+      "imageAlt": "A webpage wireframe showing layout blocks and interface hierarchy.",
+      "imageCredit": "BadSprad, CC BY-SA 4.0, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wireframe_Example.jpg"
+    },
+    {
+      "id": "obs-khh-music",
+      "page": "observe",
+      "source": "observe",
+      "category": "K-Hiphop",
+      "subCategory": "Music",
+      "contentType": "breakdown",
+      "readingTime": "1 min",
+      "title": "K-Hiphop 的记忆点正在前移到前两秒",
+      "summary": "在短视频传播中，很多听众还没听到副歌，就已经通过 producer tag、音色或第一句歌词认出歌曲语境。",
+      "what": "歌曲身份不再只由副歌承担。开头的声音纹理、tag、ad-lib 和第一句 flow，会先把听众带入某个制作人或场景。",
+      "why": "短视频截取通常从最有识别度的瞬间开始。如果歌曲前两秒已经有身份，就更容易被剪辑、模仿和记住。",
+      "takeaway": "以后听 K-Hiphop 时，先留意开头最容易辨认的声音，不要只等副歌。",
+      "tags": [
+        "K-Hiphop",
+        "producer tag",
+        "sound identity"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "producer tag 像声音 logo，但它和音色、鼓组、第一句 flow 一起工作，形成可传播入口。"
+    },
+    {
+      "id": "obs-khh-culture",
+      "page": "observe",
+      "source": "observe",
+      "category": "K-Hiphop",
+      "subCategory": "Culture",
+      "contentType": "observation",
+      "readingTime": "45 sec",
+      "title": "Crew 身份仍在塑造听众的审美地图",
+      "summary": "即使用户通过单曲发现音乐，crew、厂牌和合作关系仍然会解释声音为什么相近、视觉为什么相似。",
+      "what": "K-Hiphop 的关系网络会把制作人、rapper、视觉团队和演出场景连接起来。单曲看似独立，背后常常有审美共同体。",
+      "why": "理解 crew 关系能帮助听众更快建立地图：谁和谁共享声音趣味，谁在桥接不同受众。",
+      "takeaway": "追一个关系，而不只是追一个艺人名字。feature、制作人和厂牌信息都在提示审美路径。",
+      "tags": [
+        "K-Hiphop",
+        "crew",
+        "culture"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "这类关系也会影响短视频传播，因为用户常常不是只喜欢一首歌，而是喜欢一整套声音语境。"
+    },
+    {
+      "id": "obs-khh-industry",
+      "page": "observe",
+      "source": "observe",
+      "category": "K-Hiphop",
+      "subCategory": "Industry",
+      "contentType": "breakdown",
+      "readingTime": "1 min",
+      "title": "音乐节阵容是受众桥梁地图",
+      "summary": "阵容不是简单名单，它会显示哪些艺人被放在相邻受众之间，也显示场景如何打包不同声音。",
+      "what": "当几个风格不同但受众可重叠的艺人出现在同一场活动中，主办方其实在制造听众迁移路径。",
+      "why": "这对理解行业很重要：流量不只来自平台推荐，也来自线下场景对谁应该被一起听见的安排。",
+      "takeaway": "看阵容时不要只看有没有喜欢的艺人，也看排序、搭配和风格间距。",
+      "tags": [
+        "K-Hiphop",
+        "industry",
+        "festival"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "阵容能提前暴露市场正在押注的受众桥梁，比如从 melodic rap 连接到 R&B。"
+    },
+    {
+      "id": "obs-khh-visual",
+      "page": "observe",
+      "source": "observe",
+      "category": "K-Hiphop",
+      "subCategory": "Visual design",
+      "contentType": "gallery",
+      "readingTime": "1 min",
+      "title": "K-Hiphop 封面正在靠近编辑式克制",
+      "summary": "一些发行视觉不再追求强海报感，而是用摄影、窄字排和柔和对比，让音乐更像生活方式内容。",
+      "what": "封面在缩略图、社交 feed 和播放页之间来回移动，因此需要在小尺寸下仍然有识别度。过满的视觉反而会失去记忆点。",
+      "why": "视觉克制能让音乐进入更多生活场景，也更适合被截图、分享和做成周边。",
+      "takeaway": "比较封面时先缩到手机缩略图大小，看它还剩下什么可识别信号。",
+      "tags": [
+        "K-Hiphop",
+        "cover art",
+        "typography"
+      ],
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:32nd_Golden_Disc_Awards.jpg",
+      "sourceType": "image reference",
+      "visualImportance": 1,
+      "practicalObservation": "如果只在大图里好看，小图里失去标题和主体，这个封面在平台环境里就会变弱。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/32nd_Golden_Disc_Awards.jpg?width=960",
+      "imageAlt": "A Korean-language awards poster with compact typography and stage-event visual hierarchy.",
+      "imageCredit": "Wikimedia Commons contributors, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:32nd_Golden_Disc_Awards.jpg"
+    },
+    {
+      "id": "obs-khh-language",
+      "page": "observe",
+      "source": "observe",
+      "category": "K-Hiphop",
+      "subCategory": "Language",
+      "contentType": "observation",
+      "readingTime": "45 sec",
+      "title": "歌词教的是语境，不只是词义",
+      "summary": "俚语、敬语省略、称呼和句尾会暴露说话人的距离、姿态和身份。只翻译意思，会漏掉很多语气。",
+      "what": "K-Hiphop 歌词里常见 informal 语气、英语混用和敬语缺席，并不只是酷，而是在建构说话人的位置。",
+      "why": "如果只查单词，学习者会知道说了什么，却不知道以什么姿态说。",
+      "takeaway": "标注谁在对谁说话、关系有多近、语气是挑衅还是自嘲。这样比逐词翻译更接近真实理解。",
+      "tags": [
+        "K-Hiphop",
+        "Language",
+        "lyrics"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "这也能回到 Language 页面：语法点要放进语境里学，而不是只背结构。"
+    },
+    {
+      "id": "obs-ai-workflow",
+      "page": "observe",
+      "source": "observe",
+      "category": "AI",
+      "subCategory": "Workflow",
+      "contentType": "breakdown",
+      "readingTime": "1 min",
+      "title": "AI workflow 的价值始于任务边界",
+      "summary": "关键不是工具能做多少，而是它应该做什么、停在哪里、何时把判断交还给人。",
+      "what": "一个好 workflow 会先定义输入、输出、检查点和人工判断位置。没有边界的 AI 流程容易生成更多内容，却没有减少真正的决策负担。",
+      "why": "用户信任的不是永远继续生成的工具，而是知道什么时候停止、什么时候提示不确定、什么时候要求人确认的工具。",
+      "takeaway": "优化 prompt 前，先定义交接点：哪一步交给 AI，哪一步必须由人决定。",
+      "tags": [
+        "AI",
+        "workflow",
+        "judgment"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "边界越清楚，输出越容易被检查；输出越容易被检查，工具越可能进入日常使用。"
+    },
+    {
+      "id": "obs-ai-tool",
+      "page": "observe",
+      "source": "observe",
+      "category": "AI",
+      "subCategory": "Tool",
+      "contentType": "comparison",
+      "readingTime": "1 min",
+      "title": "单一用途 AI 工具更容易被真实评估",
+      "summary": "窄的图片、笔记或研究工具，比宽泛助手更容易通过反复使用判断质量。",
+      "what": "宽泛助手在 demo 里容易显得惊艳，但日常使用中很难判断它到底在哪个任务上稳定。窄工具则能被明确比较：快了多少、错了多少、省了哪一步。",
+      "why": "具体任务让质量可见。用户愿意留下来的，往往不是功能最多的工具，而是某个步骤真的变轻了。",
+      "takeaway": "评估 AI 工具时，不要问它能不能做很多事，问它是否稳定改善一个重复任务。",
+      "tags": [
+        "AI",
+        "tool",
+        "productivity"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "comparison": "A：什么都能聊的助手。B：只帮你把商品图生成统一场景的工具。B 更窄，但更容易判断是否好用。"
+    },
+    {
+      "id": "obs-ai-product",
+      "page": "observe",
+      "source": "observe",
+      "category": "AI",
+      "subCategory": "Product",
+      "contentType": "case-study",
+      "readingTime": "1 min",
+      "title": "AI UI 应该暴露信心和来源路径",
+      "summary": "用户不只需要答案，也需要知道哪些内容有来源、哪些是推断、哪些仍然不确定。",
+      "what": "当 AI 给出建议、摘要或分析时，如果界面只展示结论，用户很难判断该相信到什么程度。更好的设计会把来源、置信程度和不确定部分放进次级元信息。",
+      "why": "这能避免生成文本像没有依据的权威。用户可以先读结论，再在需要时追溯依据。",
+      "takeaway": "把来源做成界面层级，而不是堆成免责声明。可追溯比长篇解释更能建立信任。",
+      "tags": [
+        "AI",
+        "UI",
+        "source"
+      ],
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:20230625_09_11_50-Greenshot_crop.png",
+      "sourceType": "image reference",
+      "visualImportance": 1,
+      "example": "一个内容研究工具如果能标注来自原文、来自模型推断、需要人工确认，用户会更容易把它纳入工作流。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/20230625_09_11_50-Greenshot_crop.png?width=960",
+      "imageAlt": "GPT4All interface screenshot showing model selection and local AI chat workflow UI.",
+      "imageCredit": "Wikimedia Commons contributors, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:20230625_09_11_50-Greenshot_crop.png"
+    },
+    {
+      "id": "obs-ai-industry",
+      "page": "observe",
+      "source": "observe",
+      "category": "AI",
+      "subCategory": "Industry",
+      "contentType": "observation",
+      "readingTime": "45 sec",
+      "title": "AI 采用正在从实验走向运营",
+      "summary": "团队开始从 demo 转向可重复流程：谁输入、谁审核、输出进入哪个系统、失败时怎样处理。",
+      "what": "AI 不再只是发布会上展示的新能力，而是被填进客服、内容、销售、研究和内部知识流程中。",
+      "why": "进入运营后，真正重要的是稳定性、权限、责任和成本，而不是一次生成效果有多惊艳。",
+      "takeaway": "看 AI 新闻时，不只问模型多强，问它改变了哪一个具体工作环节。",
+      "tags": [
+        "AI",
+        "industry",
+        "operations"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "这会让很多普通但稳定的 AI 用法比酷炫 demo 更有长期价值。"
+    },
+    {
+      "id": "obs-ai-case",
+      "page": "observe",
+      "source": "observe",
+      "category": "AI",
+      "subCategory": "Case study",
+      "contentType": "case-study",
+      "readingTime": "1 min",
+      "title": "AI 商品摄影需要明确约束",
+      "summary": "品牌色、角度、材质、光线和使用场景越清楚，生成图片越容易保持一致。Prompt 正在变成 art direction。",
+      "what": "很多商家一开始只要求生成好看的商品图，结果得到一组风格不一致的画面。更有效的做法是把 prompt 写成设计 brief。",
+      "why": "商品图不是单张海报，而是货架系统的一部分。视觉一致性会影响用户是否觉得品牌可靠。",
+      "takeaway": "写 AI 图片需求时，先固定品牌色、镜头角度、材质词和禁用元素，再追求创意。",
+      "tags": [
+        "AI",
+        "e-commerce",
+        "image generation"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "example": "如果一组图每张都好看但彼此不像同一品牌，它们就不能真正服务商品页。"
+    },
+    {
+      "id": "obs-ecom-product-page",
+      "page": "observe",
+      "source": "observe",
+      "category": "E-commerce",
+      "subCategory": "Product page",
+      "contentType": "breakdown",
+      "readingTime": "1 min",
+      "title": "商品页正在变成解释页",
+      "summary": "好的商品页会先说明问题、适配对象、证据和下一步行动，再制造紧迫感。",
+      "what": "用户进入商品页时，不一定已经准备购买。很多时候他们在确认：这是什么、适不适合我、和别的选择有什么不同、风险在哪里。",
+      "why": "只堆卖点会增加压力，解释清晰反而降低犹豫。越复杂或越新奇的产品，越需要先完成理解。",
+      "takeaway": "商品页先做解释，再做说服。把问题、适配对象、证据和行动顺序排清楚。",
+      "tags": [
+        "E-commerce",
+        "product page",
+        "conversion"
+      ],
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Things_Remembered.jpg",
+      "sourceType": "image reference",
+      "visualImportance": 1,
+      "mechanism": "转化不是单个按钮完成的，而是由一串信任判断组成。每个未回答的问题都会让用户停下来。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Things_Remembered.jpg?width=960",
+      "imageAlt": "A website screenshot from Things Remembered used as an e-commerce page layout reference.",
+      "imageCredit": "Wikimedia Commons contributors, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Things_Remembered.jpg"
+    },
+    {
+      "id": "obs-ecom-content-commerce",
+      "page": "observe",
+      "source": "observe",
+      "category": "E-commerce",
+      "subCategory": "Content commerce",
+      "contentType": "observation",
+      "readingTime": "45 sec",
+      "title": "内容电商成立的前提是内容本身有用",
+      "summary": "只推商品的帖子会显得薄；有用的上下文会先建立信任，再让产品链接变得合理。",
+      "what": "表现更好的内容电商通常先提供一个判断视角，例如怎么比较、怎么使用、哪些人不适合，然后才出现商品。",
+      "why": "用户抵触的不是商业，而是没有理解就被要求购买。内容如果能先解决一个小问题，销售动作会更自然。",
+      "takeaway": "先给一个有用 lens，再给产品链接。不要让商品成为内容存在的唯一理由。",
+      "tags": [
+        "E-commerce",
+        "content commerce",
+        "trust"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "mechanism": "这也要求创作者更像编辑：先筛选值得讲的理由，再决定卖什么。"
+    },
+    {
+      "id": "obs-ecom-trust",
+      "page": "observe",
+      "source": "observe",
+      "category": "E-commerce",
+      "subCategory": "Customer trust",
+      "contentType": "breakdown",
+      "readingTime": "1 min",
+      "title": "电商信任线索不只是评论",
+      "summary": "尺码清晰、退换规则、成分解释、使用边界和对比图，都会降低购买风险。",
+      "what": "评论能证明有人买过，但不能回答所有风险。用户还会担心尺码、材质、效果、售后、是否适合自己，以及图片和实物差距。",
+      "why": "每一个未回答的问题都会让用户推迟购买。信任不是一个模块，而是分布在商品页的很多细节中。",
+      "takeaway": "先列出买家的疑虑，再决定页面信息。不要只问如何更有说服力，也问哪里还不够清晰。",
+      "tags": [
+        "E-commerce",
+        "trust",
+        "detail"
+      ],
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cashback-definition-illustration.png",
+      "sourceType": "image reference",
+      "visualImportance": 1,
+      "mechanism": "对比图、失败场景和不适合人群有时比夸张好评更能建立信任。",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cashback-definition-illustration.png?width=960",
+      "imageAlt": "An illustration explaining cashback as an e-commerce trust and incentive detail.",
+      "imageCredit": "Wikimedia Commons contributors, via Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cashback-definition-illustration.png"
+    },
+    {
+      "id": "obs-ecom-branding",
+      "page": "observe",
+      "source": "observe",
+      "category": "E-commerce",
+      "subCategory": "Branding",
+      "contentType": "case-study",
+      "readingTime": "1 min",
+      "title": "平台品牌需要价格之外的记忆",
+      "summary": "在 marketplace 环境里，用户会快速比较价格、评价和配送。品牌如果没有可记忆信号，很容易只剩折扣。",
+      "what": "可重复的视觉、命名方式、产品图风格或一句稳定表达，都能让商品在比价时不完全被价格吞没。",
+      "why": "平台流量让品牌更容易被看见，也更容易被替代。记忆信号可以让用户在多个相似商品中建立一点偏好。",
+      "takeaway": "找出折扣消失后仍能被记住的线索。它可以很小，但必须反复出现。",
+      "tags": [
+        "E-commerce",
+        "branding",
+        "marketplace"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "example": "同一类收纳产品，如果图片角度、标题语气和颜色系统稳定，用户会更容易把它们当成一个品牌。"
+    },
+    {
+      "id": "obs-ecom-conversion",
+      "page": "observe",
+      "source": "observe",
+      "category": "E-commerce",
+      "subCategory": "Conversion experience",
+      "contentType": "comparison",
+      "readingTime": "1 min",
+      "title": "转化体验依赖决策顺序",
+      "summary": "让用户同时选规格、信任卖家、比较利益和付款，会制造阻力。好的电商 UX 会分阶段安排决策。",
+      "what": "购买不是单一步骤。用户先理解产品，再判断适配性，再确认风险，最后才付款。如果页面把这些压力压在同一屏，用户会更容易退出。",
+      "why": "降低认知负担，有时比更强文案更有效。顺序清晰，用户才知道下一步该处理哪个问题。",
+      "takeaway": "把选择、证明和购买拆成不同瞬间。不要让用户在同一秒内做完所有判断。",
+      "tags": [
+        "E-commerce",
+        "UX",
+        "conversion"
+      ],
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
+      "visualImportance": 0,
+      "comparison": "A：先弹优惠、再要求选规格、同时展示十几个卖点。B：先解释适合谁，再给规格建议，最后给购买动作。B 更像决策路径。"
+    }
+  ],
+  "language": {
+    "english": [
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "Cambridge Dictionary: shape",
+        "sourceUrl": "https://dictionary.cambridge.org/us/dictionary/english/shape",
+        "sourceType": "dictionary",
+        "author": "Cambridge University Press",
+        "publishedAt": "",
+        "id": "en-shaping-idea",
+        "language": "English",
+        "contentType": "Expression",
+        "difficulty": "Intermediate",
+        "expression": "I'm still shaping the idea.",
+        "translation": "我还在把这个想法整理成型。",
+        "shortExplanation": "用来说明你不是没有想法，而是还在整理结构和表达方式。",
+        "realContext": "内容策划、设计讨论、项目早期沟通。",
+        "usage": "适合在想法未定稿时使用，比 I don't know 更主动。",
+        "whenNotToUse": "如果完全没有方向，或对方需要立即明确答案，就不要用它拖延。",
+        "vocabulary": [
+          {
+            "term": "shape",
+            "meaning": "使想法成型，整理方向。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "be still + -ing",
+            "explanation": "强调动作仍在进行，语气比一般现在时更柔和。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "I'm still shaping the idea, but the core is about reducing reading pressure.",
+            "translation": "我还在整理这个想法，但核心是降低阅读压力。"
+          }
+        ],
+        "nuance": "shaping 暗示你正在做判断和取舍，不是随便想想。",
+        "aiNote": "这类表达能保护未完成思考，同时保留推进感。",
+        "tags": [
+          "Creator",
+          "collocation"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "en-nuance-not-quite",
+        "language": "English",
+        "contentType": "Expression",
+        "difficulty": "Intermediate",
+        "expression": "It's not quite what I meant.",
+        "translation": "这不完全是我的意思。",
+        "shortExplanation": "一种温和纠偏：对方接近了，但还没有准确抓到你的意思。",
+        "realContext": "反馈、改稿、协作讨论。",
+        "usage": "先承认接近，再补充你真正想表达的重点。",
+        "whenNotToUse": "如果对方完全误解，或情况需要直接指出错误，就不要过度软化。",
+        "vocabulary": [
+          {
+            "term": "not quite",
+            "meaning": "不完全是，还差一点准确度。"
+          }
+        ],
+        "grammarPoints": [],
+        "examples": [
+          {
+            "original": "It's not quite what I meant. I was talking about tone, not color.",
+            "translation": "这不完全是我的意思。我说的是语气，不是颜色。"
+          }
+        ],
+        "nuance": "not quite 修正的是精确度；not really 更像否定整个方向。",
+        "aiNote": "适合训练英语里的低冲突反馈。",
+        "tags": [
+          "feedback",
+          "nuance"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "en-collocation-build-on",
+        "language": "English",
+        "contentType": "Expression",
+        "difficulty": "Intermediate",
+        "expression": "Can I build on that?",
+        "translation": "我可以接着这个想法往下说吗？",
+        "shortExplanation": "表示你要延展别人的观点，而不是另起炉灶。",
+        "realContext": "会议、课堂讨论、头脑风暴。",
+        "usage": "用于加入补充观点，让协作语气更顺。",
+        "whenNotToUse": "如果你实际是在反驳，先说明分歧。",
+        "vocabulary": [
+          {
+            "term": "build on",
+            "meaning": "基于已有内容继续发展。"
+          }
+        ],
+        "grammarPoints": [],
+        "examples": [
+          {
+            "original": "Can I build on that? The same logic also applies to Library.",
+            "translation": "我可以接着这个想法往下说吗？同样的逻辑也适用于 Library。"
+          }
+        ],
+        "nuance": "build on 带有合作感，比 add something 更有结构。",
+        "aiNote": "适合 creator/business 场景里的自然接话。",
+        "tags": [
+          "Business",
+          "Creator"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "en-internet-lowkey",
+        "language": "English",
+        "contentType": "Internet",
+        "difficulty": "Intermediate",
+        "expression": "I'm low-key obsessed with this layout.",
+        "translation": "我有点暗暗喜欢这个版式。",
+        "shortExplanation": "low-key 可以把强烈感受说得更轻、更随意。",
+        "realContext": "社交媒体评论、朋友聊天、非正式创作笔记。",
+        "usage": "用于轻松表达喜欢、惊讶或在意。",
+        "whenNotToUse": "正式写作、考试和严肃商务场景里不建议使用。",
+        "vocabulary": [
+          {
+            "term": "low-key",
+            "meaning": "低调地、有点、暗暗地。"
+          }
+        ],
+        "grammarPoints": [],
+        "examples": [
+          {
+            "original": "This title is low-key better than the original one.",
+            "translation": "这个标题其实有点比原来的更好。"
+          }
+        ],
+        "nuance": "它常表达“我知道这不是什么大事，但我真的有感觉”。",
+        "aiNote": "适合理解英文互联网语气。",
+        "tags": [
+          "Internet",
+          "tone"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "en-grammar-would-rather",
+        "language": "English",
+        "contentType": "Grammar",
+        "difficulty": "Intermediate",
+        "expression": "I'd rather make it clearer than make it louder.",
+        "translation": "我宁愿让它更清晰，而不是更抢眼。",
+        "shortExplanation": "用 would rather 表达取舍，比直接说 I want 更有判断感。",
+        "realContext": "设计反馈、产品取舍、内容编辑。",
+        "usage": "用来说明你更重视 A，而不是 B。",
+        "whenNotToUse": "如果只是普通喜好，可以用 prefer。",
+        "vocabulary": [],
+        "grammarPoints": [
+          {
+            "point": "would rather + verb + than + verb",
+            "explanation": "两个动词保持原形，用 than 引出被放弃的选项。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "I'd rather publish one clear note than five vague updates.",
+            "translation": "我宁愿发一条清晰的笔记，也不想发五条模糊的更新。"
+          }
+        ],
+        "nuance": "它不是单纯偏好，而是在表达优先级。",
+        "aiNote": "适合把审美判断说成可讨论的策略选择。",
+        "tags": [
+          "Grammar",
+          "Design"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "en-business-scope",
+        "language": "English",
+        "contentType": "Expression",
+        "difficulty": "Upper-intermediate",
+        "expression": "This is starting to become scope creep.",
+        "translation": "这开始有点范围蔓延了。",
+        "shortExplanation": "scope creep 指项目需求不断外扩，超过原本边界。",
+        "realContext": "项目管理、自由职业、产品讨论。",
+        "usage": "用于提醒团队收住范围，并回到原始目标。",
+        "whenNotToUse": "不要把它当作拒绝一切新想法的借口。",
+        "vocabulary": [
+          {
+            "term": "scope",
+            "meaning": "项目范围。"
+          },
+          {
+            "term": "creep",
+            "meaning": "缓慢蔓延。"
+          }
+        ],
+        "grammarPoints": [],
+        "examples": [
+          {
+            "original": "Adding a dashboard now would be scope creep for this sprint.",
+            "translation": "现在加仪表盘会让这个 sprint 的范围蔓延。"
+          }
+        ],
+        "nuance": "starting to become 比直接说 is scope creep 更缓和。",
+        "aiNote": "这是保护工作边界的高频表达。",
+        "tags": [
+          "Business",
+          "project"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "en-practical-pushback",
+        "language": "English",
+        "contentType": "Expression",
+        "difficulty": "Upper-intermediate",
+        "expression": "I see the point, but I'm not sure it solves the core problem.",
+        "translation": "我理解这个点，但不确定它解决了核心问题。",
+        "shortExplanation": "先承认合理性，再把讨论拉回核心问题。",
+        "realContext": "团队讨论、评审、方案取舍。",
+        "usage": "用于温和反对一个不够聚焦的方案。",
+        "whenNotToUse": "如果需要快速决策，句子可能显得太绕。",
+        "vocabulary": [
+          {
+            "term": "core problem",
+            "meaning": "核心问题，而不是表面症状。"
+          }
+        ],
+        "grammarPoints": [],
+        "examples": [
+          {
+            "original": "I see the point, but I'm not sure it solves the core problem for new users.",
+            "translation": "我理解这个点，但不确定它解决了新用户的核心问题。"
+          }
+        ],
+        "nuance": "I see the point 不是完全同意，而是承认对方有理由。",
+        "aiNote": "适合练习不生硬的英文 pushback。",
+        "tags": [
+          "feedback",
+          "Business"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "en-exam-concession",
+        "language": "English",
+        "contentType": "Exam",
+        "difficulty": "Upper-intermediate",
+        "expression": "While convenience matters, trust is the real barrier.",
+        "translation": "便利性固然重要，但信任才是真正的障碍。",
+        "shortExplanation": "while 引出让步，主句放真正观点。",
+        "realContext": "CET 写作、趋势分析、报告段落。",
+        "usage": "用于让论证显得平衡，但重点仍然清楚。",
+        "whenNotToUse": "如果前后两点没有真实对比，就不要硬套 while。",
+        "vocabulary": [
+          {
+            "term": "barrier",
+            "meaning": "阻碍、门槛。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "While + clause, main claim",
+            "explanation": "从句让步，主句表达真正立场。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "While speed matters, consistency is what makes the workflow usable.",
+            "translation": "速度固然重要，但一致性才让这个工作流真正可用。"
+          }
+        ],
+        "nuance": "这个结构能避免作文里只会说 however。",
+        "aiNote": "适合把考试句型迁移到真实分析表达。",
+        "tags": [
+          "Exam",
+          "argument"
+        ]
+      }
+    ],
+    "korean": [
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "ko-not-my-taste",
+        "language": "Korean",
+        "contentType": "Expression",
+        "difficulty": "TOPIK 2-3",
+        "expression": "제 취향은 아니에요.",
+        "translation": "这不太是我的取向 / 不是我的菜。",
+        "shortExplanation": "礼貌表达“不喜欢”，但不把对象评价成不好。",
+        "realContext": "聊音乐、穿搭、设计、食物时都能用。",
+        "usage": "想保持礼貌和距离时使用。",
+        "whenNotToUse": "正式评价里需要给客观理由时，不要只说这句。",
+        "vocabulary": [
+          {
+            "term": "취향",
+            "meaning": "取向、偏好、审美口味。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "noun + 은/는 아니에요",
+            "explanation": "表示“不是某种东西/类型”，语气比 싫어요 更柔和。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "이 노래가 나쁘다는 건 아닌데, 제 취향은 아니에요.",
+            "translation": "不是说这首歌不好，但不太是我的取向。"
+          }
+        ],
+        "nuance": "취향 带有身份和审美倾向，不只是简单喜欢。",
+        "aiNote": "K-pop/K-Hiphop 讨论里很常用，因为很多评价其实是在说取向。",
+        "tags": [
+          "Culture",
+          "K-Hiphop"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "ko-kind-of",
+        "language": "Korean",
+        "contentType": "Grammar",
+        "difficulty": "TOPIK 2-3",
+        "expression": "저는 가사를 먼저 보는 편이에요.",
+        "translation": "我属于会先看歌词的类型。",
+        "shortExplanation": "-는 편이에요 用来描述倾向，不把话说得太绝对。",
+        "realContext": "自我介绍、采访回答、粉丝聊天。",
+        "usage": "描述自己平常比较偏向怎么做。",
+        "whenNotToUse": "一次性动作不要用 편이에요。",
+        "vocabulary": [
+          {
+            "term": "가사",
+            "meaning": "歌词。"
+          },
+          {
+            "term": "먼저",
+            "meaning": "先、首先。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "verb/adjective + 편이다",
+            "explanation": "表示“算是比较……的一类 / 倾向于……”。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "새 앨범이 나오면 저는 가사를 먼저 보는 편이에요.",
+            "translation": "新专辑出来的时候，我属于会先看歌词的类型。"
+          }
+        ],
+        "nuance": "比 항상 更自然，因为它给习惯留了弹性。",
+        "aiNote": "这是 TOPIK 2-3 很实用的表达，也适合音乐兴趣场景。",
+        "tags": [
+          "TOPIK",
+          "K-Hiphop"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "ko-internet-injeong",
+        "language": "Korean",
+        "contentType": "Internet",
+        "difficulty": "Intermediate",
+        "expression": "이 비트 진짜 인정",
+        "translation": "这个 beat 真的认了 / 服。",
+        "shortExplanation": "인정 是表示认可、同意、服气的网络用语。",
+        "realContext": "YouTube 评论、直播聊天、社交平台短评。",
+        "usage": "只在非常随意的网络语境中使用。",
+        "whenNotToUse": "考试、工作、正式对话里不要用缩略或弹幕式语气。",
+        "vocabulary": [
+          {
+            "term": "인정",
+            "meaning": "认可、承认、同意。"
+          },
+          {
+            "term": "비트",
+            "meaning": "beat，节拍、伴奏。"
+          }
+        ],
+        "grammarPoints": [],
+        "examples": [
+          {
+            "original": "이 훅 진짜 인정해야 돼.",
+            "translation": "这个 hook 真的得认。"
+          }
+        ],
+        "nuance": "인정 更像弹幕式反应，不适合认真说明理由。",
+        "aiNote": "学习韩网语要同时记住场景边界。",
+        "tags": [
+          "Internet",
+          "K-Hiphop"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "ko-interview-honestly",
+        "language": "Korean",
+        "contentType": "Expression",
+        "difficulty": "TOPIK 3",
+        "expression": "솔직히 말하면 부담이 있었어요.",
+        "translation": "老实说，当时有压力。",
+        "shortExplanation": "솔직히 말하면 用来引出比较真实、个人化的回答。",
+        "realContext": "艺人采访、纪录片、自我反思。",
+        "usage": "放在承认压力、犹豫、真实想法之前。",
+        "whenNotToUse": "普通事实前反复使用会显得夸张。",
+        "vocabulary": [
+          {
+            "term": "솔직히",
+            "meaning": "坦率地、老实说。"
+          },
+          {
+            "term": "부담",
+            "meaning": "负担、压力。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "-면",
+            "explanation": "表示条件或前置语气，这里用于“如果坦白说”。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "솔직히 말하면 처음에는 자신이 없었어요.",
+            "translation": "老实说，一开始我没有信心。"
+          }
+        ],
+        "nuance": "它会把后面的内容标记成“更真实的话”。",
+        "aiNote": "适合听懂韩语采访里的情绪转折。",
+        "tags": [
+          "Interview",
+          "Culture"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "ko-lyric-vibe",
+        "language": "Korean",
+        "contentType": "Culture",
+        "difficulty": "TOPIK 2-3",
+        "expression": "이 곡은 분위기가 좋아요.",
+        "translation": "这首歌氛围很好。",
+        "shortExplanation": "분위기 可以说音乐、空间、照片、人和场面的整体感觉。",
+        "realContext": "音乐反应、设计评论、日常聊天。",
+        "usage": "当你想评价整体气质，而不是技术细节时使用。",
+        "whenNotToUse": "如果需要具体分析旋律、编曲或歌词，不要只停留在 분위기。",
+        "vocabulary": [
+          {
+            "term": "분위기",
+            "meaning": "氛围、气质、整体感觉。"
+          },
+          {
+            "term": "곡",
+            "meaning": "歌曲、曲子。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "noun + 이/가 좋아요",
+            "explanation": "用于评价某个具体属性好。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "이 사진은 색감보다 분위기가 더 좋아요.",
+            "translation": "这张照片比起色感，更好的是氛围。"
+          }
+        ],
+        "nuance": "它接近 vibe，但比英文 vibe 更常出现在日常韩语里。",
+        "aiNote": "适合理解韩语评价里的整体感。",
+        "tags": [
+          "Culture",
+          "Design"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "ko-daily-kka",
+        "language": "Korean",
+        "contentType": "Grammar",
+        "difficulty": "TOPIK 2",
+        "expression": "오늘은 이 앨범부터 들어볼까요?",
+        "translation": "今天要不要先听这张专辑？",
+        "shortExplanation": "-ㄹ까요? 可以提议一起做某事，语气柔和。",
+        "realContext": "学习计划、歌单选择、日常建议。",
+        "usage": "想提出建议但不强迫对方时使用。",
+        "whenNotToUse": "下达明确指令时不要用它。",
+        "vocabulary": [
+          {
+            "term": "앨범",
+            "meaning": "专辑。"
+          },
+          {
+            "term": "들어보다",
+            "meaning": "试着听听。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "verb stem + ㄹ까요/을까요",
+            "explanation": "用于询问或提议。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "다음에는 인터뷰 영상을 같이 볼까요?",
+            "translation": "下次要不要一起看看采访视频？"
+          }
+        ],
+        "nuance": "它比 합시다 更轻，也更像邀请。",
+        "aiNote": "适合把语法放进真实学习安排。",
+        "tags": [
+          "Grammar",
+          "Daily"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "ko-culture-nunchi",
+        "language": "Korean",
+        "contentType": "Culture",
+        "difficulty": "TOPIK 3-4",
+        "expression": "눈치가 빠르다",
+        "translation": "有眼力见 / 很会察言观色。",
+        "shortExplanation": "눈치 指读懂气氛、关系和时机的能力。",
+        "realContext": "综艺、职场场景、采访、日常人际关系。",
+        "usage": "形容一个人很会看场合、反应快。",
+        "whenNotToUse": "不要把它只理解成视力或智力。",
+        "vocabulary": [
+          {
+            "term": "눈치",
+            "meaning": "察言观色、读气氛的能力。"
+          },
+          {
+            "term": "빠르다",
+            "meaning": "快、反应快。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "noun + 이/가 빠르다",
+            "explanation": "评价某种反应或能力很快。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "그 사람은 눈치가 빨라서 분위기를 잘 읽어요.",
+            "translation": "那个人很有眼力见，很快就能读懂气氛。"
+          }
+        ],
+        "nuance": "这是文化词，直接翻译成 sense 不够完整。",
+        "aiNote": "理解 눈치 能帮助你听懂很多韩语综艺和采访里的关系判断。",
+        "tags": [
+          "Culture",
+          "Nuance"
+        ]
+      },
+      {
+        "page": "language",
+        "source": "language",
+        "category": "Language",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
+        "id": "ko-exam-because",
+        "language": "Korean",
+        "contentType": "Exam",
+        "difficulty": "TOPIK 3",
+        "expression": "시간이 부족하기 때문에 계획이 필요합니다.",
+        "translation": "因为时间不够，所以需要计划。",
+        "shortExplanation": "-기 때문에 是比较正式的原因表达，适合写作和说明。",
+        "realContext": "TOPIK 写作、报告、正式解释。",
+        "usage": "用于清楚说明原因和结果。",
+        "whenNotToUse": "很随意的聊天里可能比 -아서/어서 更书面。",
+        "vocabulary": [
+          {
+            "term": "부족하다",
+            "meaning": "不足、不够。"
+          },
+          {
+            "term": "계획",
+            "meaning": "计划。"
+          }
+        ],
+        "grammarPoints": [
+          {
+            "point": "verb/adjective + 기 때문에",
+            "explanation": "把谓词名词化后接 때문에，表示原因。"
+          }
+        ],
+        "examples": [
+          {
+            "original": "연습 시간이 부족하기 때문에 매일 조금씩 공부해야 합니다.",
+            "translation": "因为练习时间不够，所以需要每天学一点。"
+          }
+        ],
+        "nuance": "它比 -아서/어서 更适合正式表达和考试作文。",
+        "aiNote": "这是 TOPIK 中级写作里很稳定的原因结构。",
+        "tags": [
+          "Exam",
+          "Grammar"
+        ]
+      }
+    ]
+  }
+}
