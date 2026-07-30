@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "purpose": "Fixed source list for the Creator OS Codex daily content Automation. Use these as starting points only; every item written to current.json still needs a traceable sourceUrl.",
+  "rules": [
+    "Prefer official product blogs, documentation, reputable dictionaries and source pages with stable URLs.",
+    "Do not use pages that require login, bypass anti-bot controls, or block normal access.",
+    "Do not invent authors, dates, links, claims, images or credits.",
+    "If a source cannot be opened or verified during the run, do not use it as a factual basis."
+  ],
+  "sources": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/",
+      "type": "official news"
+    },
+    {
+      "name": "Google Search Blog",
+      "url": "https://blog.google/products/search/",
+      "type": "official product blog"
+    },
+    {
+      "name": "Google Shopping Blog",
+      "url": "https://blog.google/products/shopping/",
+      "type": "official product blog"
+    },
+    {
+      "name": "YouTube Official Blog",
+      "url": "https://blog.youtube/",
+      "type": "official product blog"
+    },
+    {
+      "name": "Instagram Blog",
+      "url": "https://about.instagram.com/blog/",
+      "type": "official product blog"
+    },
+    {
+      "name": "Shopify News",
+      "url": "https://www.shopify.com/news/",
+      "type": "official company news"
+    },
+    {
+      "name": "Adobe Blog",
+      "url": "https://blog.adobe.com/",
+      "type": "official product blog"
+    },
+    {
+      "name": "Adobe Experience League",
+      "url": "https://experienceleague.adobe.com/",
+      "type": "official documentation"
+    },
+    {
+      "name": "Cambridge Dictionary",
+      "url": "https://dictionary.cambridge.org/",
+      "type": "dictionary"
+    },
+    {
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/",
+      "type": "dictionary"
+    },
+    {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "type": "image source"
+    }
+  ]
+}
