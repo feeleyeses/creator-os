@@ -1,4 +1,4 @@
-﻿# Creator OS Deployment
+# Creator OS Deployment
 
 Creator OS is deployed as a plain static site through GitHub Pages.
 

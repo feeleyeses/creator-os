@@ -1,4 +1,4 @@
-﻿# Daily Content Pipeline
+# Daily Content Pipeline
 
 Creator OS daily content is stored in `content/current.json` and preserved in `content/archive/` before replacement.
 

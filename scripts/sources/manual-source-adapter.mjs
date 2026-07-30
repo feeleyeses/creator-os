@@ -1,4 +1,4 @@
-﻿export async function collectManualSources() {
+export async function collectManualSources() {
   return [];
 }
 

@@ -1,4 +1,4 @@
-﻿import { collectManualSources } from "./manual-source-adapter.mjs";
+import { collectManualSources } from "./manual-source-adapter.mjs";
 import { collectRssSources } from "./rss-adapter.mjs";
 
 export async function collectCandidates() {

@@ -1,4 +1,4 @@
-﻿export async function collectRssSources() {
+export async function collectRssSources() {
   return [];
 }
 

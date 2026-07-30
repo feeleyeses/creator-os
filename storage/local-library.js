@@ -1,4 +1,4 @@
-﻿(function (global) {
+(function (global) {
   const key = "creator-os-library-v2";
   const schemaVersion = 2;
   function read() {

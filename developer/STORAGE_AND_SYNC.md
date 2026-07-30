@@ -1,4 +1,4 @@
-﻿# Storage And Sync
+# Storage And Sync
 
 Daily content is shared across devices. Library data currently remains in each browser.
 

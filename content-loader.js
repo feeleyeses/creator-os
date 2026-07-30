@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
   const contentUrl = new URL("content/current.json", document.baseURI);
   window.CreatorOSDailyContent = { loaded: false, date: "" };
 
