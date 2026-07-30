@@ -1,0 +1,291 @@
+/* Mobile reading-experience fixes. Desktop styles remain unchanged. */
+@media (max-width: 980px) {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .main-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 28px 18px calc(128px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .page {
+    min-width: 0;
+  }
+
+  .page-kicker,
+  .panel-label,
+  .card-meta {
+    line-height: 1.35;
+  }
+
+  .page-title {
+    max-width: 100%;
+    overflow-wrap: normal;
+    word-break: normal;
+    hyphens: none;
+    font-size: clamp(36px, 7vw, 52px);
+    line-height: 1.16;
+    margin: 10px 0 14px;
+  }
+
+  .page-subtitle {
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 1.72;
+    margin-bottom: 24px;
+  }
+
+  .today-focus {
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .today-focus .content-image {
+    order: 3;
+    width: 100%;
+  }
+
+  .today-focus-copy {
+    order: 1;
+    min-width: 0;
+  }
+
+  .today-focus-aside {
+    order: 2;
+    width: 100%;
+    min-width: 0;
+    align-self: start;
+    padding-top: 18px;
+  }
+
+  .today-focus h1 {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: normal;
+    font-size: clamp(34px, 6.4vw, 46px);
+    line-height: 1.18;
+    margin: 12px 0 16px;
+  }
+
+  .today-focus-copy p,
+  .today-focus-aside p {
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 1.76;
+  }
+
+  .today-focus .tag-row,
+  .today-focus .actions,
+  .observe-card .tag-row,
+  .observe-card .actions,
+  .language-card .actions,
+  .library-card .tag-row,
+  .library-card .actions {
+    min-width: 0;
+    align-items: flex-start;
+  }
+
+  .tag,
+  .chip,
+  .info-chip,
+  .topic-chip,
+  .save-button,
+  .action-button,
+  .remove-button,
+  .text-button {
+    max-width: 100%;
+    height: auto;
+    min-height: 34px;
+    align-self: flex-start;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.35;
+  }
+
+  .brief-item {
+    min-width: 0;
+    align-items: start;
+  }
+
+  .brief-copy,
+  .brief-copy strong,
+  .brief-copy em,
+  .brief-link {
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  .observe-masonry {
+    column-count: 2;
+  }
+
+  .observe-masonry .observe-card,
+  .lesson-card,
+  .language-card,
+  .library-card,
+  .panel,
+  .item-card {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .content-image,
+  .content-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .content-image img {
+    height: auto;
+  }
+
+  .lesson-grid,
+  .lesson-hero,
+  .library-grid,
+  .content-grid,
+  .section-grid {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .lesson-card,
+  .language-card {
+    align-self: start;
+  }
+
+  .library-filters {
+    max-width: 100%;
+  }
+
+  .note-input,
+  textarea,
+  input,
+  select {
+    max-width: 100%;
+  }
+
+  .mobile-nav {
+    bottom: max(10px, env(safe-area-inset-bottom, 0px));
+  }
+}
+
+@media (max-width: 700px) {
+  .observe-masonry {
+    column-count: 1;
+  }
+
+  .page-title {
+    font-size: clamp(34px, 9vw, 42px);
+    line-height: 1.18;
+  }
+
+  .daily-brief {
+    gap: 20px;
+  }
+
+  .brief-item {
+    grid-template-columns: 34px minmax(0, 1fr);
+    gap: 12px;
+    padding: 15px 0 15px 8px;
+  }
+
+  .brief-link {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 560px) {
+  .main-content {
+    padding: 24px 14px calc(140px + env(safe-area-inset-bottom, 0px));
+  }
+
+  .page-title {
+    font-size: clamp(32px, 9.4vw, 38px);
+    line-height: 1.2;
+    letter-spacing: 0;
+  }
+
+  .page-subtitle {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-bottom: 22px;
+  }
+
+  .today-editor-opening {
+    margin-bottom: 24px;
+  }
+
+  .today-editor-opening p {
+    font-size: clamp(22px, 6.4vw, 28px);
+    line-height: 1.35;
+  }
+
+  .today-focus {
+    gap: 18px;
+    padding: 20px;
+  }
+
+  .today-focus h1 {
+    font-size: clamp(30px, 8.4vw, 36px);
+    line-height: 1.22;
+  }
+
+  .today-focus-copy p,
+  .today-focus-aside p {
+    font-size: 16px;
+    line-height: 1.78;
+  }
+
+  .panel,
+  .item-card,
+  .lesson-card,
+  .library-card {
+    padding: 16px;
+  }
+
+  .language-card .actions,
+  .library-card .actions,
+  .today-focus .actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .language-card .actions > *,
+  .library-card .actions > *,
+  .today-focus .actions > * {
+    width: 100%;
+  }
+
+  .target-expression,
+  .language-card[data-language-kind="Korean"] .target-expression {
+    font-size: clamp(28px, 8vw, 32px);
+    line-height: 1.26;
+  }
+
+  .mobile-nav {
+    left: 8px;
+    right: 8px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .mobile-nav-item {
+    min-width: 0;
+    padding: 10px 3px;
+    font-size: 12px;
+    line-height: 1.25;
+  }
+}
