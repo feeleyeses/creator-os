@@ -1,92 +1,89 @@
 {
-  "date": "2026-07-31",
+  "date": "2026-07-30",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-07-31T08:00:00+08:00",
+  "generatedAt": "2026-07-30T08:00:00+08:00",
   "today": {
     "focus": {
-      "id": "today-ai-efficiency",
+      "id": "today-ai-commerce",
       "page": "today",
       "source": "today",
       "category": "AI",
-      "subCategory": "Model efficiency",
+      "subCategory": "E-commerce operations",
       "contentType": "Focus",
-      "title": "AI 工具的竞争开始回到“单位成本里的能力”",
-      "summary": "OpenAI 新闻页在 2026-07-30 将 GPT-5.6 的主题放在价格性能前沿；同一周还出现面向科研、工作和健康场景的产品叙事。今天值得看的不是单个功能，而是 AI 公司如何把更强能力包装成可持续使用的日常基础设施。",
-      "what": "最新官方发布把 AI 进展描述为能力、效率和具体工作场景的组合，而不是只强调模型参数或单次演示。",
-      "why": "创作者和小团队真正关心的是：同样预算下能不能更稳定地产出、复核和分发内容。价格性能改善会让更多流程从“偶尔试用”变成“每天默认使用”。",
-      "takeaway": "评估 AI 工具时，把问题改成：它是否降低了每次判断、修改和交付的综合成本，而不只是第一次生成是否惊艳。",
-      "aiNote": "今天用官方发布页做入口，避免把未验证的模型细节写成事实。",
+      "title": "AI 内容工具正在从效率工具变成货架基础设施",
+      "summary": "越来越多小品牌把 AI 用在商品图、标题测试、详情页说明和评论 FAQ 上。真正拉开差距的不是生成速度，而是品牌判断、证据路径和内容边界能否一起被系统化。",
+      "what": "AI 生成正在进入日常运营，而不是只作为一次性营销活动。",
+      "why": "当内容生产成本下降，用户更需要判断哪些信息可信、哪些只是包装。",
+      "takeaway": "观察 AI 工具时，不只看它能生成什么，也看它如何保留来源、边界和人工判断。",
+      "aiNote": "今天先用一个重点进入，再用 Daily Brief 建立观察方向。",
       "tags": [
         "AI",
-        "workflow",
-        "cost"
+        "E-commerce",
+        "content system"
       ],
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/news/",
-      "sourceType": "official news",
-      "author": "",
-      "publishedAt": "2026-07-30",
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
       "visualImportance": 0,
       "relatedTags": [
         "AI",
-        "workflow"
+        "E-commerce"
       ],
       "relatedContentIds": [
-        "obs-ai-workflow",
-        "obs-ai-product"
+        "obs-ai-product",
+        "obs-ecom-product-page"
       ]
     },
     "brief": {
       "forYou": [
         {
-          "id": "brief-search-apps",
-          "relatedObserveId": "obs-self-content-pillars",
-          "category": "Self-media",
-          "readTime": "3 min",
-          "title": "搜索入口正在从网页答案扩展到应用动作",
-          "summary": "Google Search 博客把“Connect more of your apps to Search”放在 Search 最新更新中，说明搜索正在靠近可执行工作流。内容创作者需要把笔记写成能被搜索、比较和行动引用的结构。"
+          "id": "brief-producer-tag",
+          "relatedObserveId": "obs-khh-music",
+          "category": "K-Hiphop",
+          "readTime": "2 min",
+          "title": "Producer tag 正在成为短视频里的声音 Logo",
+          "summary": "音色、producer tag 和第一句歌词，正在比副歌更早建立听众记忆。短视频传播让歌曲身份前移到前两秒。"
         },
         {
-          "id": "brief-ai-efficiency",
-          "relatedObserveId": "obs-ai-workflow",
+          "id": "brief-xhs-search",
+          "relatedObserveId": "obs-self-xhs-search",
+          "category": "Self-media",
+          "readTime": "3 min",
+          "title": "小红书笔记越来越像可保存的搜索答案",
+          "summary": "高表现笔记会先回答具体问题，再用对比、经验和案例建立作者风格。搜索流量提高后，清晰答案更容易长尾曝光。"
+        },
+        {
+          "id": "brief-ai-source",
+          "relatedObserveId": "obs-ai-product",
           "category": "AI",
           "readTime": "3 min",
-          "title": "模型效率会改变小团队的默认工作流",
-          "summary": "OpenAI 新闻页最新条目强调 GPT-5.6 的价格性能前沿。对创作者来说，重点不是追逐名称，而是判断低成本高频调用能否进入选题、草稿、复核和发布节奏。"
-        },
-        {
-          "id": "brief-youtube-classroom",
-          "relatedObserveId": "obs-self-youtube-retention",
-          "category": "Self-media",
-          "readTime": "2 min",
-          "title": "YouTube 继续把创作者内容接进教育场景",
-          "summary": "YouTube 官方博客称其与 Mark Rober 合作推出 Class CrunchLabs，面向 3-8 年级并计划提供 34 种语言的视频内容。可复用课程化结构正在变成平台内容价值的一部分。"
+          "title": "AI 产品需要把来源路径做成界面能力",
+          "summary": "用户不只想看结论，还想知道哪些内容有依据、哪些是推断。来源路径会成为 AI 工具的信任基础。"
         }
       ],
       "trending": [
         {
-          "id": "brief-adobe-agentic",
-          "relatedObserveId": "obs-design-ui",
+          "id": "brief-packaging",
+          "relatedObserveId": "obs-design-packaging",
           "category": "Design",
           "readTime": "2 min",
-          "title": "创意软件的 AI 叙事正在转向端到端工作室",
-          "summary": "Adobe 博客在 2026-06-18 写到 Firefly 的 agentic capabilities 和升级后的 creative AI studio。设计工具的竞争点正在从单点生成转向连续工作流。"
+          "title": "包装设计的信任感来自信息顺序",
+          "summary": "品牌、品类、核心利益和证明的阅读顺序，会直接影响用户是否觉得产品可靠。包装不是装饰，而是决策界面。"
         },
         {
-          "id": "brief-shopify-ecosystem",
-          "relatedObserveId": "obs-ecom-content-commerce",
+          "id": "brief-commerce-trust",
+          "relatedObserveId": "obs-ecom-trust",
           "category": "E-commerce",
-          "readTime": "2 min",
-          "title": "电商生态的价值越来越依赖开发者和应用层",
-          "summary": "Shopify 新闻页在 2026-04-28 列出其 13 亿美元 app ecosystem 相关文章。对商家来说，增长能力越来越来自店铺、应用和运营数据的组合。"
+          "readTime": "3 min",
+          "title": "电商信任线索正在从评论扩展到细节系统",
+          "summary": "尺码、退换、成分、对比图和使用边界共同降低购买风险。真正阻碍转化的常常是未回答的小疑问。"
         }
       ]
     },
     "continueLearning": [
-      "en-grounded-in",
-      "ko-matneun-pyoheon",
-      "ko-jogeum-budamseureowo",
-      "obs-ai-workflow"
+      "en-shaping-idea",
+      "ko-kind-of",
+      "obs-ai-product"
     ]
   },
   "observe": [
@@ -150,23 +147,21 @@
       "subCategory": "YouTube",
       "contentType": "comparison",
       "readingTime": "1 min",
-      "title": "YouTube 教育内容正在更重视课程化和多语言分发",
-      "summary": "YouTube 官方博客称 Class CrunchLabs 面向 3-8 年级，内容将包含 hands-on challenges，并计划以 34 种语言提供视频。",
-      "what": "YouTube 与创作者 Mark Rober 合作，把科学实验内容组织成面向课堂的免费课程资源。官方描述强调标准对齐、教师信心和学生好奇心。",
-      "why": "这说明平台内容价值不只来自观看量，也来自能否被老师、学生和家长放进固定学习场景。创作者如果能把内容做成可复用模块，会获得更长生命周期。",
-      "takeaway": "做教育或知识视频时，不只设计开头留存，也要设计课程位置：这条内容适合哪一年级、哪一步学习任务、哪种复习方式。",
+      "title": "YouTube 开场正在从寒暄变成观看契约",
+      "summary": "更有效的开场会快速说明看完视频能理解什么、避免什么误区、得到什么判断。",
+      "what": "过去许多视频用问候、背景和自我介绍开场；现在更强的开场会直接给出观看收益，例如告诉观众看完会解决哪个具体判断。",
+      "why": "用户在前十几秒判断视频是否值得继续。清晰的学习契约能降低离开成本，也让创作者的个性建立在有效信息之后。",
+      "takeaway": "把开场从“我是谁”改成“你会得到什么”。个性不是不要，而是放在承诺之后。",
       "tags": [
         "Self-media",
         "YouTube",
-        "education"
+        "retention"
       ],
-      "sourceName": "YouTube Official Blog",
-      "sourceUrl": "https://blog.youtube/",
-      "sourceType": "official product blog",
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
       "visualImportance": 0,
-      "comparison": "短视频负责激发兴趣，课程化视频负责降低使用门槛；两者都需要清楚说明观看后能完成什么。",
-      "author": "",
-      "publishedAt": "2026-06-29"
+      "comparison": "A：大家好，今天聊聊我的拍摄经验。B：如果你总觉得照片不高级，先看这三个构图错误。B 更像契约。"
     },
     {
       "id": "obs-self-content-pillars",
@@ -328,28 +323,25 @@
       "subCategory": "Web/UI",
       "contentType": "comparison",
       "readingTime": "1 min",
-      "title": "设计工具的 AI 正在从按钮变成工作室逻辑",
-      "summary": "Adobe 博客把 Firefly 的 agentic capabilities 和升级后的 creative AI studio 放在同一叙事里，说明创意 AI 正在靠近连续任务编排。",
-      "what": "官方发布页显示，Adobe 正在把 Firefly 描述为更贴近“从想法到完成作品”的工作环境，而不是孤立的图片生成入口。",
-      "why": "设计师真正花时间的地方往往是变体、修改、交付和跨工具衔接。AI 如果只解决第一张图，价值有限；如果能承接连续步骤，才会改变创作节奏。",
-      "takeaway": "观察创意 AI 产品时，看它是否支持连续上下文、版本选择和交付路径。单次生成质量只是入口，工作室逻辑决定能不能进入专业流程。",
+      "title": "好用的 UI 安静，是因为选择被收束了",
+      "summary": "信息密集不必等于混乱。工具界面如果每屏只强调一个主要任务，就能在密度和冷静之间取得平衡。",
+      "what": "很多产品把所有能力一次摆出来，用户会被迫同时理解导航、筛选、状态和下一步动作。成熟 UI 会把决策分层：先看状态，再选范围，最后行动。",
+      "why": "重复使用的工具最怕每次都重新思考。选择被收束后，用户会形成肌肉记忆。",
+      "takeaway": "设计工具界面时，先问这一屏的主动作是什么；次要动作可以存在，但不要和主动作抢同一层级。",
       "tags": [
         "Design",
-        "AI",
+        "UI",
         "workflow"
       ],
-      "sourceName": "Adobe Blog",
-      "sourceUrl": "https://blog.adobe.com/",
-      "sourceType": "official product blog",
-      "visualImportance": 0,
+      "sourceName": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wireframe_Example.jpg",
+      "sourceType": "image reference",
+      "visualImportance": 1,
       "comparison": "A：所有按钮同等突出。B：主动作清晰，其他控制安静靠后。B 不一定更少，但更容易使用。",
       "imageUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wireframe_Example.jpg?width=960",
       "imageAlt": "A webpage wireframe showing layout blocks and interface hierarchy.",
       "imageCredit": "BadSprad, CC BY-SA 4.0, via Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wireframe_Example.jpg",
-      "author": "",
-      "publishedAt": "2026-06-18",
-      "mechanism": "端到端工作室会把提示词、素材、版本和导出放在同一条路径里，减少创作者在工具之间搬运判断的成本。"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wireframe_Example.jpg"
     },
     {
       "id": "obs-khh-music",
@@ -483,23 +475,21 @@
       "subCategory": "Workflow",
       "contentType": "breakdown",
       "readingTime": "1 min",
-      "title": "AI 工作流开始用价格性能来定义可持续性",
-      "summary": "当官方发布把新模型放在价格性能前沿下讨论，创作者需要重新计算哪些任务适合每天交给 AI，而不是只在大型项目里使用。",
-      "what": "OpenAI 新闻页最新条目显示，模型发布的叙事正在同时强调能力和成本效率。对内容团队来说，这会影响选题整理、初稿生成、事实复核和版本改写的使用频率。",
-      "why": "如果一次调用的成本和等待时间下降，AI 就不再只是“最后生成文案”的工具，而会进入每个小判断。工作流设计因此比单个提示词更重要。",
-      "takeaway": "把 AI 流程拆成高频小步骤：收集、归纳、质疑、改写、校对。只有每一步都有来源和边界，效率提升才不会变成内容风险。",
+      "title": "AI workflow 的价值始于任务边界",
+      "summary": "关键不是工具能做多少，而是它应该做什么、停在哪里、何时把判断交还给人。",
+      "what": "一个好 workflow 会先定义输入、输出、检查点和人工判断位置。没有边界的 AI 流程容易生成更多内容，却没有减少真正的决策负担。",
+      "why": "用户信任的不是永远继续生成的工具，而是知道什么时候停止、什么时候提示不确定、什么时候要求人确认的工具。",
+      "takeaway": "优化 prompt 前，先定义交接点：哪一步交给 AI，哪一步必须由人决定。",
       "tags": [
         "AI",
         "workflow",
-        "efficiency"
+        "judgment"
       ],
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/news/",
-      "sourceType": "official news",
+      "sourceName": "",
+      "sourceUrl": "",
+      "sourceType": "editorial observation",
       "visualImportance": 0,
-      "mechanism": "价格性能改善会先改变高频、低风险、可复核的任务，而不是立即替代所有创作判断。",
-      "author": "",
-      "publishedAt": "2026-07-30"
+      "mechanism": "边界越清楚，输出越容易被检查；输出越容易被检查，工具越可能进入日常使用。"
     },
     {
       "id": "obs-ai-tool",
@@ -736,44 +726,44 @@
         "page": "language",
         "source": "language",
         "category": "Language",
-        "sourceName": "Cambridge Dictionary",
-        "sourceUrl": "https://dictionary.cambridge.org/dictionary/english/grounded",
+        "sourceName": "Cambridge Dictionary: shape",
+        "sourceUrl": "https://dictionary.cambridge.org/us/dictionary/english/shape",
         "sourceType": "dictionary",
-        "author": "",
+        "author": "Cambridge University Press",
         "publishedAt": "",
-        "id": "en-grounded-in",
+        "id": "en-shaping-idea",
         "language": "English",
         "contentType": "Expression",
-        "difficulty": "Upper-intermediate",
-        "expression": "This decision is grounded in real user behavior.",
-        "translation": "这个决定是建立在真实用户行为之上的。",
-        "shortExplanation": "be grounded in 表示某个判断有清楚依据，不只是感觉或偏好。",
-        "realContext": "产品讨论、研究总结、内容策略复盘。",
-        "usage": "用于强调方案来自证据、数据或真实观察。",
-        "whenNotToUse": "如果只是个人直觉，不要用 grounded in 来增加权威感。",
+        "difficulty": "Intermediate",
+        "expression": "I'm still shaping the idea.",
+        "translation": "我还在把这个想法整理成型。",
+        "shortExplanation": "用来说明你不是没有想法，而是还在整理结构和表达方式。",
+        "realContext": "内容策划、设计讨论、项目早期沟通。",
+        "usage": "适合在想法未定稿时使用，比 I don't know 更主动。",
+        "whenNotToUse": "如果完全没有方向，或对方需要立即明确答案，就不要用它拖延。",
         "vocabulary": [
           {
-            "term": "grounded",
-            "meaning": "有根据的、建立在某种基础上的。"
+            "term": "shape",
+            "meaning": "使想法成型，整理方向。"
           }
         ],
         "grammarPoints": [
           {
-            "point": "be grounded in + noun",
-            "explanation": "被动结构，后面接依据、原则、经验或观察。"
+            "point": "be still + -ing",
+            "explanation": "强调动作仍在进行，语气比一般现在时更柔和。"
           }
         ],
         "examples": [
           {
-            "original": "Our content plan is grounded in what users actually search for.",
-            "translation": "我们的内容计划建立在用户真实搜索的问题之上。"
+            "original": "I'm still shaping the idea, but the core is about reducing reading pressure.",
+            "translation": "我还在整理这个想法，但核心是降低阅读压力。"
           }
         ],
-        "nuance": "grounded in 比 based on 更强调判断可靠、没有飘在空中。",
-        "aiNote": "适合描述有证据支撑的产品和内容判断。",
+        "nuance": "shaping 暗示你正在做判断和取舍，不是随便想想。",
+        "aiNote": "这类表达能保护未完成思考，同时保留推进感。",
         "tags": [
-          "Business",
-          "Evidence"
+          "Creator",
+          "collocation"
         ]
       },
       {
@@ -1113,43 +1103,43 @@
         "sourceType": "editorial lesson",
         "author": "",
         "publishedAt": "",
-        "id": "ko-matneun-pyoheon",
+        "id": "ko-kind-of",
         "language": "Korean",
         "contentType": "Grammar",
         "difficulty": "TOPIK 2-3",
-        "expression": "이 표현이 지금 상황에 맞는 것 같아요.",
-        "translation": "这个表达好像适合现在的情况。",
-        "shortExplanation": "맞다 表示“合适、符合”，것 같아요 让判断更柔和。",
-        "realContext": "选标题、改文案、学习外语表达时都能用。",
-        "usage": "当你想说某个表达、设计或选择适合当前场景时使用。",
-        "whenNotToUse": "如果需要非常确定的正式结论，可以去掉 것 같아요。",
+        "expression": "저는 가사를 먼저 보는 편이에요.",
+        "translation": "我属于会先看歌词的类型。",
+        "shortExplanation": "-는 편이에요 用来描述倾向，不把话说得太绝对。",
+        "realContext": "自我介绍、采访回答、粉丝聊天。",
+        "usage": "描述自己平常比较偏向怎么做。",
+        "whenNotToUse": "一次性动作不要用 편이에요。",
         "vocabulary": [
           {
-            "term": "표현",
-            "meaning": "表达、说法。"
+            "term": "가사",
+            "meaning": "歌词。"
           },
           {
-            "term": "상황",
-            "meaning": "情况、场景。"
+            "term": "먼저",
+            "meaning": "先、首先。"
           }
         ],
         "grammarPoints": [
           {
-            "point": "noun + 에 맞다",
-            "explanation": "表示适合某个对象、场景或标准。"
+            "point": "verb/adjective + 편이다",
+            "explanation": "表示“算是比较……的一类 / 倾向于……”。"
           }
         ],
         "examples": [
           {
-            "original": "이 제목이 브랜드 분위기에 맞는 것 같아요.",
-            "translation": "这个标题好像符合品牌氛围。"
+            "original": "새 앨범이 나오면 저는 가사를 먼저 보는 편이에요.",
+            "translation": "新专辑出来的时候，我属于会先看歌词的类型。"
           }
         ],
-        "nuance": "것 같아요 会保留讨论空间，适合协作场景。",
-        "aiNote": "这句适合练习“适合某场景”的韩语表达。",
+        "nuance": "比 항상 更自然，因为它给习惯留了弹性。",
+        "aiNote": "这是 TOPIK 2-3 很实用的表达，也适合音乐兴趣场景。",
         "tags": [
           "TOPIK",
-          "Expression"
+          "K-Hiphop"
         ]
       },
       {
@@ -1300,42 +1290,42 @@
         "sourceType": "editorial lesson",
         "author": "",
         "publishedAt": "",
-        "id": "ko-jogeum-budamseureowo",
+        "id": "ko-daily-kka",
         "language": "Korean",
         "contentType": "Grammar",
         "difficulty": "TOPIK 2",
-        "expression": "이 일정은 조금 부담스러울 수 있어요.",
-        "translation": "这个日程可能会有点负担。",
-        "shortExplanation": "부담스럽다 表示有压力、有负担；조금 和 수 있어요 让语气更委婉。",
-        "realContext": "排期讨论、工作协作、学习计划调整。",
-        "usage": "用于温和提醒某个安排可能太重。",
-        "whenNotToUse": "如果已经确定无法完成，要直接说明 어렵습니다。",
+        "expression": "오늘은 이 앨범부터 들어볼까요?",
+        "translation": "今天要不要先听这张专辑？",
+        "shortExplanation": "-ㄹ까요? 可以提议一起做某事，语气柔和。",
+        "realContext": "学习计划、歌单选择、日常建议。",
+        "usage": "想提出建议但不强迫对方时使用。",
+        "whenNotToUse": "下达明确指令时不要用它。",
         "vocabulary": [
           {
-            "term": "일정",
-            "meaning": "日程、安排。"
+            "term": "앨범",
+            "meaning": "专辑。"
           },
           {
-            "term": "부담스럽다",
-            "meaning": "有负担、有压力。"
+            "term": "들어보다",
+            "meaning": "试着听听。"
           }
         ],
         "grammarPoints": [
           {
-            "point": "verb/adjective + -(으)ㄹ 수 있어요",
-            "explanation": "表示可能性，让判断听起来不绝对。"
+            "point": "verb stem + ㄹ까요/을까요",
+            "explanation": "用于询问或提议。"
           }
         ],
         "examples": [
           {
-            "original": "이번 주에 세 번 업로드하는 건 조금 부담스러울 수 있어요.",
-            "translation": "这周上传三次可能会有点负担。"
+            "original": "다음에는 인터뷰 영상을 같이 볼까요?",
+            "translation": "下次要不要一起看看采访视频？"
           }
         ],
-        "nuance": "这句话是在保护边界，不是直接拒绝。",
-        "aiNote": "适合内容排期和团队沟通场景。",
+        "nuance": "它比 합시다 更轻，也更像邀请。",
+        "aiNote": "适合把语法放进真实学习安排。",
         "tags": [
-          "Business",
+          "Grammar",
           "Daily"
         ]
       },
