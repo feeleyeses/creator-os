@@ -80,3 +80,40 @@ Before a valid new `current.json` replaces the previous one, the previous file i
 The date comes from the previous content file. Existing archive files are never silently overwritten.
 
 Historical content is preserved for future archive UX decisions, but no Archive navigation is exposed in this version.
+## Daily Update Metadata
+
+`content/current.json` may include:
+
+- `dailyVersion`: a lightweight version string for the generated daily dataset.
+- `dailySummary.updatedToday`: total visible daily updates.
+- `dailySummary.focus`: Today Focus update count.
+- `dailySummary.observe`: Observe update count.
+- `dailySummary.language`: Language update count.
+
+Daily content items may include:
+
+- `updatedAt`: ISO timestamp for the item update.
+- `updatedDate`: `YYYY-MM-DD` display date.
+- `updateStatus`: one of `new-today`, `updated-today`, or `carried-over`.
+
+Missing update metadata is valid for older or carried-over content and should render quietly.
+
+Display rules:
+
+- Today Focus may show `NEW TODAY` or `UPDATED TODAY` prominently but quietly.
+- Observe may show lightweight date and status metadata.
+- Language shows date only; it should not visually emphasize `NEW`.
+- Library preserves both saved date and original content update metadata.
+
+## Codex Automation Scope
+
+The Codex daily Automation should update a bounded subset each day:
+
+- Today Focus: 1 item
+- Daily Brief / For You: exactly 3 items
+- Daily Brief / Trending: exactly 2 items
+- Observe: exactly 3 existing Observe items; preserve all others
+- English: up to 5 high-quality lessons
+- Korean: up to 5 high-quality lessons
+
+Language quality is more important than filling the quota. If five useful lessons cannot be sourced and written well, the run should update fewer lessons and report the reason rather than publish low-value filler.
