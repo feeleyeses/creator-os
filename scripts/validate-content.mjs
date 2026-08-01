@@ -21,6 +21,14 @@ function validUrl(value, label) {
     if (placeholderUrl.test(value)) fail(`${label} looks like a placeholder URL: ${value}`);
   } catch { fail(`${label} is not a valid URL: ${value}`); }
 }
+
+function validUpdateMeta(item, label, contentDate) {
+  const statuses = new Set(["new-today", "updated-today", "carried-over"]);
+  if (item.updatedAt && !Date.parse(item.updatedAt)) fail(`${label}.updatedAt must be parseable ISO time`);
+  if (item.updatedDate && !/^\d{4}-\d{2}-\d{2}$/.test(item.updatedDate)) fail(`${label}.updatedDate must be YYYY-MM-DD`);
+  if (item.updateStatus && !statuses.has(item.updateStatus)) fail(`${label}.updateStatus is not supported: ${item.updateStatus}`);
+  if ((item.updateStatus === "new-today" || item.updateStatus === "updated-today") && item.updatedDate && item.updatedDate !== contentDate) fail(`${label}.updatedDate should match content date for today status`);
+}
 function text(value, label) {
   if (value === undefined || value === null) fail(`${label} is ${value}`);
   if (typeof value === "string" && /undefined|null/.test(value)) fail(`${label} contains undefined/null text`);
@@ -34,7 +42,7 @@ function walk(value, label) {
 function hasChinese(value, label) {
   if (!cjk.test(value || "")) fail(`${label} should contain Chinese knowledge content`);
 }
-function validateItem(item, ids, label) {
+function validateItem(item, ids, label, contentDate = "") {
   ["id", "page", "source", "category", "contentType", "title", "summary", "what", "why", "takeaway"].forEach(key => text(item[key], `${label}.${key}`));
   if (ids.has(item.id)) fail(`Duplicate id: ${item.id}`);
   ids.add(item.id);
@@ -49,7 +57,7 @@ function validateItem(item, ids, label) {
     if (!item.imageSourceUrl) fail(`${label} imageUrl requires imageSourceUrl`);
   }
 }
-function validateLesson(lesson, ids, label, expectedLanguage) {
+function validateLesson(lesson, ids, label, expectedLanguage, contentDate = "") {
   ["id", "page", "source", "language", "contentType", "difficulty", "expression", "translation", "shortExplanation", "realContext", "usage", "whenNotToUse", "nuance", "aiNote"].forEach(key => text(lesson[key], `${label}.${key}`));
   if (ids.has(lesson.id)) fail(`Duplicate id: ${lesson.id}`);
   ids.add(lesson.id);
@@ -78,8 +86,14 @@ if (data) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(data.date || "")) fail("date must be YYYY-MM-DD");
   if (data.timezone !== "Asia/Shanghai") fail("timezone must be Asia/Shanghai");
   if (!Date.parse(data.generatedAt)) fail("generatedAt must be parseable ISO time");
+  if (data.dailyVersion && typeof data.dailyVersion !== "string") fail("dailyVersion must be a string");
+  if (data.dailySummary) {
+    ["updatedToday", "focus", "observe", "language"].forEach(key => {
+      if (data.dailySummary[key] !== undefined && (!Number.isInteger(data.dailySummary[key]) || data.dailySummary[key] < 0)) fail(`dailySummary.${key} must be a non-negative integer`);
+    });
+  }
   const ids = new Set();
-  validateItem(data.today?.focus || {}, ids, "today.focus");
+  validateItem(data.today?.focus || {}, ids, "today.focus", data.date);
   const forYou = data.today?.brief?.forYou || [];
   const trending = data.today?.brief?.trending || [];
   if (forYou.length !== 3) fail("today.brief.forYou must contain exactly 3 items");
@@ -96,13 +110,13 @@ if (data) {
     const count = (data.observe || []).filter(item => item.category === category).length;
     if (count < 5) fail(`observe category ${category} needs at least 5 items; found ${count}`);
   });
-  (data.observe || []).forEach((item, index) => validateItem(item, ids, `observe[${index}]`));
+  (data.observe || []).forEach((item, index) => validateItem(item, ids, `observe[${index}]`, data.date));
   const english = data.language?.english || [];
   const korean = data.language?.korean || [];
   if (english.length < 8) fail(`English needs at least 8 lessons; found ${english.length}`);
   if (korean.length < 8) fail(`Korean needs at least 8 lessons; found ${korean.length}`);
-  english.forEach((lesson, index) => validateLesson(lesson, ids, `language.english[${index}]`, "English"));
-  korean.forEach((lesson, index) => validateLesson(lesson, ids, `language.korean[${index}]`, "Korean"));
+  english.forEach((lesson, index) => validateLesson(lesson, ids, `language.english[${index}]`, "English", data.date));
+  korean.forEach((lesson, index) => validateLesson(lesson, ids, `language.korean[${index}]`, "Korean", data.date));
 }
 validateArchiveDates();
 if (errors.length) {

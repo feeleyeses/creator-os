@@ -34,7 +34,10 @@
       "relatedContentIds": [
         "obs-ai-workflow",
         "obs-ai-product"
-      ]
+      ],
+      "updatedAt": "2026-08-01T08:00:00+08:00",
+      "updatedDate": "2026-08-01",
+      "updateStatus": "updated-today"
     },
     "brief": {
       "forYou": [
@@ -44,7 +47,10 @@
           "category": "Self-media",
           "readTime": "3 min",
           "title": "搜索正在把线上答案接到线下行动",
-          "summary": "Google Search 博客在 2026-07-28 介绍 AI Mode 可用于找课程、购物、订票和连接 Google Calendar 等应用。内容创作者要把笔记写成能帮助用户做下一步决定的结构。"
+          "summary": "Google Search 博客在 2026-07-28 介绍 AI Mode 可用于找课程、购物、订票和连接 Google Calendar 等应用。内容创作者要把笔记写成能帮助用户做下一步决定的结构。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
+          "updateStatus": "new-today"
         },
         {
           "id": "brief-youtube-thumbnails",
@@ -52,7 +58,10 @@
           "category": "Self-media",
           "readTime": "2 min",
           "title": "Shorts 缩略图变成创作者的控制面板",
-          "summary": "YouTube 在 2026-07-24 宣布，YouTube Partner Program 创作者可开始为 Shorts 上传自定义缩略图，并在桌面端选择建议帧；长视频也能在 Ask Studio 中生成缩略图。"
+          "summary": "YouTube 在 2026-07-24 宣布，YouTube Partner Program 创作者可开始为 Shorts 上传自定义缩略图，并在桌面端选择建议帧；长视频也能在 Ask Studio 中生成缩略图。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
+          "updateStatus": "new-today"
         },
         {
           "id": "brief-ai-result-cost",
@@ -60,7 +69,10 @@
           "category": "AI",
           "readTime": "3 min",
           "title": "AI 预算要从 token 单价改看完成结果",
-          "summary": "OpenAI 把价格、速度、可靠性和监督成本放在同一个框架里讨论。小团队接入 AI 时，应优先计算一次可发布成果需要多少尝试和人工复核。"
+          "summary": "OpenAI 把价格、速度、可靠性和监督成本放在同一个框架里讨论。小团队接入 AI 时，应优先计算一次可发布成果需要多少尝试和人工复核。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
+          "updateStatus": "new-today"
         }
       ],
       "trending": [
@@ -70,7 +82,10 @@
           "category": "Design",
           "readTime": "2 min",
           "title": "创意运营工具开始管理更大的决策系统",
-          "summary": "Adobe Blog 在 2026-07-23 把 Workfront Planning 放在营销决策和运营模型语境中讨论。设计软件的价值正在从单点制作扩展到计划、协作和决策。"
+          "summary": "Adobe Blog 在 2026-07-23 把 Workfront Planning 放在营销决策和运营模型语境中讨论。设计软件的价值正在从单点制作扩展到计划、协作和决策。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
+          "updateStatus": "new-today"
         },
         {
           "id": "brief-shopify-data-context",
@@ -78,7 +93,10 @@
           "category": "E-commerce",
           "readTime": "2 min",
           "title": "电商数据如果没有判断力就只是噪音",
-          "summary": "Shopify News 最新列表突出“Numbers mean nothing without context and conviction”，说明商业内容不能只堆指标，还要解释指标服务的取舍和行动。"
+          "summary": "Shopify News 最新列表突出“Numbers mean nothing without context and conviction”，说明商业内容不能只堆指标，还要解释指标服务的取舍和行动。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
+          "updateStatus": "new-today"
         }
       ]
     },
@@ -166,7 +184,10 @@
       "visualImportance": 0,
       "comparison": "短视频负责激发兴趣，课程化视频负责降低使用门槛；两者都需要清楚说明观看后能完成什么。",
       "author": "The YouTube Team",
-      "publishedAt": "2026-07-24"
+      "publishedAt": "2026-07-24",
+      "updatedAt": "2026-08-01T08:00:00+08:00",
+      "updatedDate": "2026-08-01",
+      "updateStatus": "updated-today"
     },
     {
       "id": "obs-self-content-pillars",
@@ -351,7 +372,10 @@
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wireframe_Example.jpg",
       "author": "",
       "publishedAt": "2026-06-18",
-      "mechanism": "端到端工作室会把提示词、素材、版本和导出放在同一条路径里，减少创作者在工具之间搬运判断的成本。"
+      "mechanism": "端到端工作室会把提示词、素材、版本和导出放在同一条路径里，减少创作者在工具之间搬运判断的成本。",
+      "updatedAt": "2026-08-01T08:00:00+08:00",
+      "updatedDate": "2026-08-01",
+      "updateStatus": "updated-today"
     },
     {
       "id": "obs-khh-music",
@@ -501,7 +525,10 @@
       "visualImportance": 0,
       "mechanism": "价格性能改善会先改变高频、低风险、可复核的任务，而不是立即替代所有创作判断。",
       "author": "Sarah Friar",
-      "publishedAt": "2026-07-31"
+      "publishedAt": "2026-07-31",
+      "updatedAt": "2026-08-01T08:00:00+08:00",
+      "updatedDate": "2026-08-01",
+      "updateStatus": "updated-today"
     },
     {
       "id": "obs-ai-tool",
@@ -776,7 +803,10 @@
         "tags": [
           "Business",
           "Evidence"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -815,7 +845,10 @@
         "tags": [
           "feedback",
           "nuance"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -854,7 +887,10 @@
         "tags": [
           "Business",
           "Creator"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -893,7 +929,10 @@
         "tags": [
           "Internet",
           "tone"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -932,7 +971,10 @@
         "tags": [
           "Grammar",
           "Design"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -1109,7 +1151,10 @@
         "tags": [
           "Culture",
           "K-Hiphop"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -1157,7 +1202,10 @@
         "tags": [
           "TOPIK",
           "Expression"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -1200,7 +1248,10 @@
         "tags": [
           "Internet",
           "K-Hiphop"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -1248,7 +1299,10 @@
         "tags": [
           "Interview",
           "Culture"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -1296,7 +1350,10 @@
         "tags": [
           "Culture",
           "Design"
-        ]
+        ],
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
+        "updateStatus": "updated-today"
       },
       {
         "page": "language",
@@ -1443,5 +1500,12 @@
         ]
       }
     ]
+  },
+  "dailyVersion": "2026-08-01.1",
+  "dailySummary": {
+    "updatedToday": 19,
+    "focus": 1,
+    "observe": 3,
+    "language": 10
   }
 }

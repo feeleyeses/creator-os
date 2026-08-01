@@ -2,40 +2,222 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Creator OS Current Content",
   "type": "object",
-  "required": ["date", "timezone", "generatedAt", "today", "observe", "language"],
+  "required": [
+    "date",
+    "timezone",
+    "generatedAt",
+    "today",
+    "observe",
+    "language"
+  ],
   "properties": {
-    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
-    "timezone": { "const": "Asia/Shanghai" },
-    "generatedAt": { "type": "string" },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "timezone": {
+      "const": "Asia/Shanghai"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
     "today": {
       "type": "object",
-      "required": ["focus", "brief", "continueLearning"],
+      "required": [
+        "focus",
+        "brief",
+        "continueLearning"
+      ],
       "properties": {
-        "focus": { "$ref": "#/$defs/contentItem" },
+        "focus": {
+          "$ref": "#/$defs/contentItem"
+        },
         "brief": {
           "type": "object",
-          "required": ["forYou", "trending"],
+          "required": [
+            "forYou",
+            "trending"
+          ],
           "properties": {
-            "forYou": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "$ref": "#/$defs/briefItem" } },
-            "trending": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "$ref": "#/$defs/briefItem" } }
+            "forYou": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": {
+                "$ref": "#/$defs/briefItem"
+              }
+            },
+            "trending": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "$ref": "#/$defs/briefItem"
+              }
+            }
           }
         },
-        "continueLearning": { "type": "array", "items": { "type": "string" } }
+        "continueLearning": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
-    "observe": { "type": "array", "minItems": 25, "items": { "$ref": "#/$defs/contentItem" } },
+    "observe": {
+      "type": "array",
+      "minItems": 25,
+      "items": {
+        "$ref": "#/$defs/contentItem"
+      }
+    },
     "language": {
       "type": "object",
-      "required": ["english", "korean"],
+      "required": [
+        "english",
+        "korean"
+      ],
       "properties": {
-        "english": { "type": "array", "minItems": 8, "items": { "$ref": "#/$defs/languageLesson" } },
-        "korean": { "type": "array", "minItems": 8, "items": { "$ref": "#/$defs/languageLesson" } }
+        "english": {
+          "type": "array",
+          "minItems": 8,
+          "items": {
+            "$ref": "#/$defs/languageLesson"
+          }
+        },
+        "korean": {
+          "type": "array",
+          "minItems": 8,
+          "items": {
+            "$ref": "#/$defs/languageLesson"
+          }
+        }
+      }
+    },
+    "dailyVersion": {
+      "type": "string"
+    },
+    "dailySummary": {
+      "type": "object",
+      "properties": {
+        "updatedToday": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "focus": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "observe": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "language": {
+          "type": "integer",
+          "minimum": 0
+        }
       }
     }
   },
   "$defs": {
-    "briefItem": { "type": "object", "required": ["id", "relatedObserveId", "category", "readTime", "title", "summary"] },
-    "contentItem": { "type": "object", "required": ["id", "page", "source", "category", "contentType", "title", "summary", "what", "why", "takeaway", "tags"] },
-    "languageLesson": { "type": "object", "required": ["id", "page", "source", "language", "contentType", "difficulty", "expression", "translation", "shortExplanation", "realContext", "usage", "whenNotToUse", "vocabulary", "grammarPoints", "examples", "nuance", "aiNote", "tags"] }
+    "briefItem": {
+      "type": "object",
+      "required": [
+        "id",
+        "relatedObserveId",
+        "category",
+        "readTime",
+        "title",
+        "summary"
+      ],
+      "properties": {
+        "updatedAt": {
+          "type": "string"
+        },
+        "updatedDate": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "updateStatus": {
+          "enum": [
+            "new-today",
+            "updated-today",
+            "carried-over"
+          ]
+        }
+      }
+    },
+    "contentItem": {
+      "type": "object",
+      "required": [
+        "id",
+        "page",
+        "source",
+        "category",
+        "contentType",
+        "title",
+        "summary",
+        "what",
+        "why",
+        "takeaway",
+        "tags"
+      ],
+      "properties": {
+        "updatedAt": {
+          "type": "string"
+        },
+        "updatedDate": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "updateStatus": {
+          "enum": [
+            "new-today",
+            "updated-today",
+            "carried-over"
+          ]
+        }
+      }
+    },
+    "languageLesson": {
+      "type": "object",
+      "required": [
+        "id",
+        "page",
+        "source",
+        "language",
+        "contentType",
+        "difficulty",
+        "expression",
+        "translation",
+        "shortExplanation",
+        "realContext",
+        "usage",
+        "whenNotToUse",
+        "vocabulary",
+        "grammarPoints",
+        "examples",
+        "nuance",
+        "aiNote",
+        "tags"
+      ],
+      "properties": {
+        "updatedAt": {
+          "type": "string"
+        },
+        "updatedDate": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "updateStatus": {
+          "enum": [
+            "new-today",
+            "updated-today",
+            "carried-over"
+          ]
+        }
+      }
+    }
   }
 }
