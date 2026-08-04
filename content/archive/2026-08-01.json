@@ -1,31 +1,31 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-01",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-08-04T08:00:00+08:00",
+  "generatedAt": "2026-08-01T08:00:00+08:00",
   "today": {
     "focus": {
-      "id": "today-live-voice-architecture",
+      "id": "today-ai-abundance",
       "page": "today",
       "source": "today",
       "category": "AI",
-      "subCategory": "Realtime systems",
+      "subCategory": "Model efficiency",
       "contentType": "Focus",
-      "title": "实时语音 AI 的竞争点从“回答快”转向“不中断”",
-      "summary": "OpenAI 在 2026-08-03 的工程文章中解释 GPT-Live：语音模型采用全双工方式，可同时听和说；更深的推理和工具调用走异步路径，避免阻塞实时对话。",
-      "what": "文章说明，GPT-Live 移除了音频路径上的单独 turn detector，把音频流持续送入语音模型；媒体流、推理委派、上下文管理和 WebRTC 传输被拆成不同路径，以降低端到端延迟。",
-      "why": "对创作者和产品团队来说，语音 AI 的价值不只是生成内容，而是能不能在直播、访谈、客服、陪练和桌面代理协作中保持自然节奏。系统架构会直接决定用户是否感觉“被打断”。",
-      "takeaway": "评估语音或 Agent 产品时，不只看模型名和演示效果，要追问媒体路径、工具调用、上下文切换和故障恢复是否会破坏实时体验。",
-      "aiNote": "依据 OpenAI 官方工程文章整理，重点放在实时语音系统的产品含义，不延伸未验证的发布时间表。",
+      "title": "AI 工具竞争转向“结果成本”",
+      "summary": "OpenAI 在 2026-07-31 的文章中把先进 AI 的价值放在更有能力、更低成本、更广泛可用上，并说明价格、速度、路由、上下文管理都会影响一次任务的真实成本。",
+      "what": "OpenAI 称 GPT-5.6 Luna 输入与输出价格分别降至每百万 token 0.20 美元和 1.20 美元，Terra 为 2 美元和 12 美元；同文还强调应衡量完成结果的成本，而不只是 token 单价。",
+      "why": "对创作者和小团队来说，AI 是否值得接入日常流程，关键是选题、草稿、复核和交付的总成本是否下降。模型能力、调用价格、速度和返工次数会共同决定工具能不能成为默认工作台。",
+      "takeaway": "评估 AI 工具时，把问题改成：它能否用更少返工完成一个明确结果，而不是只看模型名称或一次生成效果。",
+      "aiNote": "今天用 OpenAI 官方文章做主线，只采用页面中可核验的价格、效率和工作流表述。",
       "tags": [
         "AI",
-        "voice",
-        "realtime"
+        "workflow",
+        "cost"
       ],
       "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
-      "sourceType": "official engineering blog",
-      "author": "Justin Uberti and Zahan Malkani",
-      "publishedAt": "2026-08-03",
+      "sourceUrl": "https://openai.com/index/building-abundant-intelligence/",
+      "sourceType": "official company news",
+      "author": "Sarah Friar",
+      "publishedAt": "2026-07-31",
       "visualImportance": 0,
       "relatedTags": [
         "AI",
@@ -35,85 +35,75 @@
         "obs-ai-workflow",
         "obs-ai-product"
       ],
-      "updatedAt": "2026-08-04T08:00:00+08:00",
-      "updatedDate": "2026-08-04",
+      "updatedAt": "2026-08-01T08:00:00+08:00",
+      "updatedDate": "2026-08-01",
       "updateStatus": "updated-today"
     },
     "brief": {
       "forYou": [
         {
-          "id": "brief-live-voice-fast-path",
-          "relatedObserveId": "obs-ai-workflow",
-          "category": "AI",
-          "readTime": "3 min",
-          "title": "语音 AI 开始把“媒体快路径”当成产品能力",
-          "summary": "OpenAI 把音频流放在专用快路径上，让工具调用和更深推理异步进行。对内容工具来说，真正的体验差异会出现在等待、插话和长会话维护这些细节里。",
-          "sourceName": "OpenAI",
-          "sourceUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
-          "updatedAt": "2026-08-04T08:00:00+08:00",
-          "updatedDate": "2026-08-04",
-          "updateStatus": "new-today"
-        },
-        {
-          "id": "brief-search-offline-actions",
+          "id": "brief-search-ai-mode-offline",
           "relatedObserveId": "obs-self-content-pillars",
           "category": "Self-media",
           "readTime": "3 min",
-          "title": "搜索内容更像“行动入口”，不是答案列表",
-          "summary": "Google Search 文章把 AI Mode 放进找课程、买装备、订票和连接应用的场景。创作者写教程时，要把用户看完后的下一步设计清楚。",
-          "sourceName": "Google Search Blog",
-          "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-          "updatedAt": "2026-08-04T08:00:00+08:00",
-          "updatedDate": "2026-08-04",
+          "title": "搜索正在把线上答案接到线下行动",
+          "summary": "Google Search 博客在 2026-07-28 介绍 AI Mode 可用于找课程、购物、订票和连接 Google Calendar 等应用。内容创作者要把笔记写成能帮助用户做下一步决定的结构。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
           "updateStatus": "new-today"
         },
         {
-          "id": "brief-youtube-thumbnail-control",
+          "id": "brief-youtube-thumbnails",
           "relatedObserveId": "obs-self-youtube-retention",
           "category": "Self-media",
           "readTime": "2 min",
-          "title": "Shorts 缩略图控制权继续前移给创作者",
-          "summary": "YouTube 表示 YPP 创作者可为 Shorts 上传自定义缩略图，桌面端也能选择建议帧；Ask Studio 还可为长视频生成缩略图。入口视觉正在变成可运营资产。",
-          "sourceName": "YouTube Official Blog",
-          "sourceUrl": "https://blog.youtube/news-and-events/youtube-studio-custom-thumbnail-updates/",
-          "updatedAt": "2026-08-04T08:00:00+08:00",
-          "updatedDate": "2026-08-04",
+          "title": "Shorts 缩略图变成创作者的控制面板",
+          "summary": "YouTube 在 2026-07-24 宣布，YouTube Partner Program 创作者可开始为 Shorts 上传自定义缩略图，并在桌面端选择建议帧；长视频也能在 Ask Studio 中生成缩略图。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
+          "updateStatus": "new-today"
+        },
+        {
+          "id": "brief-ai-result-cost",
+          "relatedObserveId": "obs-ai-workflow",
+          "category": "AI",
+          "readTime": "3 min",
+          "title": "AI 预算要从 token 单价改看完成结果",
+          "summary": "OpenAI 把价格、速度、可靠性和监督成本放在同一个框架里讨论。小团队接入 AI 时，应优先计算一次可发布成果需要多少尝试和人工复核。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
           "updateStatus": "new-today"
         }
       ],
       "trending": [
         {
-          "id": "brief-adobe-california-story",
-          "relatedObserveId": "obs-design-branding",
-          "category": "Design",
-          "readTime": "2 min",
-          "title": "品牌叙事仍然需要可验证的组织记忆",
-          "summary": "Adobe Blog 最新列表显示，加州州议会认可 Adobe 40 多年来对加州的贡献。对品牌内容来说，历史不是装饰，而是把企业行动放进公共语境的证据。",
-          "sourceName": "Adobe Blog",
-          "sourceUrl": "https://blog.adobe.com/",
-          "updatedAt": "2026-08-04T08:00:00+08:00",
-          "updatedDate": "2026-08-04",
-          "updateStatus": "new-today"
-        },
-        {
-          "id": "brief-adobe-workfront-operating-model",
+          "id": "brief-adobe-workfront-planning",
           "relatedObserveId": "obs-design-ui",
           "category": "Design",
           "readTime": "2 min",
-          "title": "创意工具正在进入营销经营模型",
-          "summary": "Adobe Blog 将 Workfront Planning 放在一个团队、250 个模型和超过 10 亿美元营销投入的案例里。设计工具的价值正在从制作效率延伸到计划和决策。",
-          "sourceName": "Adobe Blog",
-          "sourceUrl": "https://blog.adobe.com/",
-          "updatedAt": "2026-08-04T08:00:00+08:00",
-          "updatedDate": "2026-08-04",
+          "title": "创意运营工具开始管理更大的决策系统",
+          "summary": "Adobe Blog 在 2026-07-23 把 Workfront Planning 放在营销决策和运营模型语境中讨论。设计软件的价值正在从单点制作扩展到计划、协作和决策。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
+          "updateStatus": "new-today"
+        },
+        {
+          "id": "brief-shopify-data-context",
+          "relatedObserveId": "obs-ecom-content-commerce",
+          "category": "E-commerce",
+          "readTime": "2 min",
+          "title": "电商数据如果没有判断力就只是噪音",
+          "summary": "Shopify News 最新列表突出“Numbers mean nothing without context and conviction”，说明商业内容不能只堆指标，还要解释指标服务的取舍和行动。",
+          "updatedAt": "2026-08-01T08:00:00+08:00",
+          "updatedDate": "2026-08-01",
           "updateStatus": "new-today"
         }
       ]
     },
     "continueLearning": [
       "en-grounded-in",
-      "en-collocation-build-on",
-      "en-business-scope",
+      "ko-matneun-pyoheon",
+      "ko-jogeum-budamseureowo",
       "obs-ai-workflow"
     ]
   },
@@ -178,10 +168,10 @@
       "subCategory": "YouTube",
       "contentType": "comparison",
       "readingTime": "1 min",
-      "title": "YouTube 缩略图正在从封面变成可运营资产",
-      "summary": "YouTube 表示 YPP 创作者可为 Shorts 上传自定义缩略图，桌面端可选建议帧，Ask Studio 也能为长视频生成并调整缩略图。",
-      "what": "这次更新把创作者对视频入口的控制集中到三个动作：上传 Shorts 自定义缩略图、在桌面端选择 Shorts 建议帧、用 Ask Studio 为长视频生成并调整颜色和布局。",
-      "why": "缩略图不是装饰，而是用户进入内容前的判断界面。平台给创作者更多入口控制权，意味着点击预期、内容定位和视觉一致性都更像可迭代的运营资产。",
+      "title": "YouTube 正在把缩略图从封面变成可优化资产",
+      "summary": "YouTube 官方博客称，YPP 创作者可开始为 Shorts 上传自定义缩略图，桌面端也能选择建议帧，Ask Studio 还可为长视频生成缩略图。",
+      "what": "这次更新集中在创作者对视频入口的控制：Shorts 自定义缩略图、桌面端建议帧，以及可通过对话调整颜色和布局的 Ask Studio 长视频缩略图生成。",
+      "why": "缩略图不是装饰，而是用户进入内容前的判断界面。平台把更多控制权交给创作者，意味着点击预期、内容定位和视觉一致性都会更像可迭代的运营资产。",
       "takeaway": "做视频时把缩略图当作标题的视觉版本：它要说明内容承诺、目标观众和观看理由，而不是只追求醒目。",
       "tags": [
         "Self-media",
@@ -195,8 +185,8 @@
       "comparison": "短视频负责激发兴趣，课程化视频负责降低使用门槛；两者都需要清楚说明观看后能完成什么。",
       "author": "The YouTube Team",
       "publishedAt": "2026-07-24",
-      "updatedAt": "2026-08-04T08:00:00+08:00",
-      "updatedDate": "2026-08-04",
+      "updatedAt": "2026-08-01T08:00:00+08:00",
+      "updatedDate": "2026-08-01",
       "updateStatus": "updated-today"
     },
     {
@@ -207,10 +197,10 @@
       "subCategory": "Content strategy",
       "contentType": "breakdown",
       "readingTime": "1 min",
-      "title": "内容支柱要能把答案导向线下行动",
-      "summary": "Google Search 的 AI Mode 示例覆盖找本地课程、查库存、订票、做邀请函和连接应用，说明搜索内容越来越接近任务完成入口。",
-      "what": "Google 文章列出五类使用场景：找适合日程的本地课程、寻找户外装备并查看附近库存、创建游戏策略指南、查找并预订活动票、连接 Canva 制作聚会邀请。",
-      "why": "当搜索结果更像行动界面，创作者的内容也需要从观点陈列变成决策辅助。能被比较、引用和执行的内容，会比单纯情绪表达更耐用。",
+      "title": "内容支柱要能把答案导向行动",
+      "summary": "Google Search 在 2026-07-28 介绍 AI Mode 用于找课程、购物、订票和连接应用，说明搜索结果越来越接近任务完成入口。",
+      "what": "Google 的示例包括寻找适合日程的本地课程、购买户外装备并查看本地库存、制定游戏策略、订现场活动票，以及在搜索结果中设计派对邀请。",
+      "why": "当搜索从“给答案”靠近“帮行动”，创作者的内容也要从观点陈列变成决策辅助。能被引用、比较和执行的内容，会比单纯情绪表达更耐用。",
       "takeaway": "写内容支柱时，不只定义主题，还要定义用户看完后能做的动作：选择、购买、预约、练习、复盘或转发。",
       "tags": [
         "Self-media",
@@ -223,10 +213,7 @@
       "visualImportance": 0,
       "mechanism": "视角型支柱把创作者的判断变成可复用框架。用户记住的不是栏目名，而是你总能帮他们更快看懂问题。",
       "author": "",
-      "publishedAt": "2026-07-28",
-      "updatedAt": "2026-08-04T08:00:00+08:00",
-      "updatedDate": "2026-08-04",
-      "updateStatus": "updated-today"
+      "publishedAt": "2026-07-28"
     },
     {
       "id": "obs-self-creator-business",
@@ -522,25 +509,25 @@
       "subCategory": "Workflow",
       "contentType": "breakdown",
       "readingTime": "1 min",
-      "title": "实时 AI 工作流要先保护不中断的主路径",
-      "summary": "OpenAI GPT-Live 文章显示，语音模型、媒体传输、工具调用和上下文维护需要分层处理，慢任务不能阻塞实时对话。",
-      "what": "GPT-Live 将音频收发放在持续流式路径上，深度推理和工具调用通过异步委派完成；上下文压缩和模型实例切换也被设计成不打断媒体流的过渡。",
-      "why": "这说明 AI 工作流的瓶颈不只在模型能力，还在系统能不能把“必须实时完成的事”和“可以后台完成的事”分开。创作者工具、客服、陪练和代理协作都会受这个原则影响。",
-      "takeaway": "设计 AI 流程时，先标出用户正在感知的主路径，再把搜索、复核、保存和复杂推理移到不会打断体验的位置。",
+      "title": "AI 工作流的核心指标是一次结果的总成本",
+      "summary": "OpenAI 在 2026-07-31 的文章中强调，客户真正购买的是问题被解决、软件被交付或合同被审阅等结果，而不是 token 本身。",
+      "what": "文章把模型价格、速度、可靠性、路由、上下文管理和工具设计放在同一个效率框架里，并称应衡量成功结果所需的时间、重试、监督和错误成本。",
+      "why": "这会改变创作者使用 AI 的判断方式：便宜模型如果导致反复返工，未必便宜；强模型如果减少复核和重写，可能在最终结果上更经济。",
+      "takeaway": "为每条内容流程记录“从想法到可发布”的尝试次数、人工修改时间和最终质量，再决定该用哪个 AI 环节。",
       "tags": [
         "AI",
         "workflow",
         "cost"
       ],
       "sourceName": "OpenAI",
-      "sourceUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
-      "sourceType": "official engineering blog",
+      "sourceUrl": "https://openai.com/index/building-abundant-intelligence/",
+      "sourceType": "official company news",
       "visualImportance": 0,
       "mechanism": "价格性能改善会先改变高频、低风险、可复核的任务，而不是立即替代所有创作判断。",
-      "author": "Justin Uberti and Zahan Malkani",
-      "publishedAt": "2026-08-03",
-      "updatedAt": "2026-08-04T08:00:00+08:00",
-      "updatedDate": "2026-08-04",
+      "author": "Sarah Friar",
+      "publishedAt": "2026-07-31",
+      "updatedAt": "2026-08-01T08:00:00+08:00",
+      "updatedDate": "2026-08-01",
       "updateStatus": "updated-today"
     },
     {
@@ -778,51 +765,47 @@
         "page": "language",
         "source": "language",
         "category": "Language",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
-        "sourceType": "official engineering blog",
-        "author": "Justin Uberti and Zahan Malkani",
-        "publishedAt": "2026-08-03",
+        "sourceName": "Cambridge Dictionary",
+        "sourceUrl": "https://dictionary.cambridge.org/dictionary/english/grounded",
+        "sourceType": "dictionary",
+        "author": "",
+        "publishedAt": "",
         "id": "en-grounded-in",
         "language": "English",
         "contentType": "Expression",
         "difficulty": "Upper-intermediate",
-        "expression": "The live path stays small, predictable, and focused.",
-        "translation": "实时路径保持小而可预测，并专注在最必须实时完成的事情上。",
-        "shortExplanation": "用 stays + adjective 表达系统设计原则，比 simply is 更像工程判断。",
-        "realContext": "技术文章、产品复盘、系统设计说明。",
-        "usage": "用于说明某个核心流程为什么要保持简单、稳定、边界清楚。",
-        "whenNotToUse": "如果只是描述普通页面布局，不需要用 live path 这种工程语境。",
+        "expression": "This decision is grounded in real user behavior.",
+        "translation": "这个决定是建立在真实用户行为之上的。",
+        "shortExplanation": "be grounded in 表示某个判断有清楚依据，不只是感觉或偏好。",
+        "realContext": "产品讨论、研究总结、内容策略复盘。",
+        "usage": "用于强调方案来自证据、数据或真实观察。",
+        "whenNotToUse": "如果只是个人直觉，不要用 grounded in 来增加权威感。",
         "vocabulary": [
           {
-            "term": "live path",
-            "meaning": "实时路径；用户正在直接感知的关键链路。"
-          },
-          {
-            "term": "predictable",
-            "meaning": "可预测的、稳定的。"
+            "term": "grounded",
+            "meaning": "有根据的、建立在某种基础上的。"
           }
         ],
         "grammarPoints": [
           {
-            "point": "stay + adjective",
-            "explanation": "强调持续保持某种状态，而不是一次性的事实。"
+            "point": "be grounded in + noun",
+            "explanation": "被动结构，后面接依据、原则、经验或观察。"
           }
         ],
         "examples": [
           {
-            "original": "The review path stays small, predictable, and focused on publishing decisions.",
-            "translation": "审核路径保持小而可预测，并专注在发布决策上。"
+            "original": "Our content plan is grounded in what users actually search for.",
+            "translation": "我们的内容计划建立在用户真实搜索的问题之上。"
           }
         ],
-        "nuance": "适合讲系统边界，语气克制但很有判断力。",
-        "aiNote": "来自 OpenAI 对 GPT-Live 媒体快路径的工程表述。",
+        "nuance": "grounded in 比 based on 更强调判断可靠、没有飘在空中。",
+        "aiNote": "适合描述有证据支撑的产品和内容判断。",
         "tags": [
           "Business",
           "Evidence"
         ],
-        "updatedAt": "2026-08-04T08:00:00+08:00",
-        "updatedDate": "2026-08-04",
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
         "updateStatus": "updated-today"
       },
       {
@@ -871,51 +854,42 @@
         "page": "language",
         "source": "language",
         "category": "Language",
-        "sourceName": "OpenAI",
-        "sourceUrl": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
-        "sourceType": "official engineering blog",
-        "author": "Justin Uberti and Zahan Malkani",
-        "publishedAt": "2026-08-03",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
         "id": "en-collocation-build-on",
         "language": "English",
         "contentType": "Expression",
         "difficulty": "Intermediate",
-        "expression": "The system streams incoming audio into the voice model.",
-        "translation": "系统将传入音频以流式方式送入语音模型。",
-        "shortExplanation": "stream something into... 是技术英语里描述连续输入的常见搭配。",
-        "realContext": "AI、视频、音频、数据管道和实时产品说明。",
-        "usage": "用于描述数据不是一次性提交，而是持续进入某个系统。",
-        "whenNotToUse": "普通文件上传不一定要用 stream，除非强调连续传输。",
+        "expression": "Can I build on that?",
+        "translation": "我可以接着这个想法往下说吗？",
+        "shortExplanation": "表示你要延展别人的观点，而不是另起炉灶。",
+        "realContext": "会议、课堂讨论、头脑风暴。",
+        "usage": "用于加入补充观点，让协作语气更顺。",
+        "whenNotToUse": "如果你实际是在反驳，先说明分歧。",
         "vocabulary": [
           {
-            "term": "incoming audio",
-            "meaning": "传入的音频。"
-          },
-          {
-            "term": "stream",
-            "meaning": "以流式方式传输。"
+            "term": "build on",
+            "meaning": "基于已有内容继续发展。"
           }
         ],
-        "grammarPoints": [
-          {
-            "point": "stream + object + into + destination",
-            "explanation": "把动作、对象和目标系统连在一起。"
-          }
-        ],
+        "grammarPoints": [],
         "examples": [
           {
-            "original": "The app streams comments into a moderation queue before publishing.",
-            "translation": "应用会把评论持续送入审核队列，然后再发布。"
+            "original": "Can I build on that? The same logic also applies to Library.",
+            "translation": "我可以接着这个想法往下说吗？同样的逻辑也适用于 Library。"
           }
         ],
-        "nuance": "比 send 更强调连续、低延迟和过程性。",
-        "aiNote": "来自 OpenAI 对 GPT-Live 推理和媒体传输的描述。",
+        "nuance": "build on 带有合作感，比 add something 更有结构。",
+        "aiNote": "适合 creator/business 场景里的自然接话。",
         "tags": [
           "Business",
           "Creator"
         ],
-        "updatedAt": "2026-08-04T08:00:00+08:00",
-        "updatedDate": "2026-08-04",
+        "updatedAt": "2026-08-01T08:00:00+08:00",
+        "updatedDate": "2026-08-01",
         "updateStatus": "updated-today"
       },
       {
@@ -1006,154 +980,132 @@
         "page": "language",
         "source": "language",
         "category": "Language",
-        "sourceName": "YouTube Official Blog",
-        "sourceUrl": "https://blog.youtube/news-and-events/youtube-studio-custom-thumbnail-updates/",
-        "sourceType": "official product blog",
-        "author": "The YouTube Team",
-        "publishedAt": "2026-07-24",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
+        "author": "",
+        "publishedAt": "",
         "id": "en-business-scope",
         "language": "English",
         "contentType": "Expression",
         "difficulty": "Upper-intermediate",
-        "expression": "This gives you more control over how your Shorts look.",
-        "translation": "这让你能更好地控制 Shorts 的呈现方式。",
-        "shortExplanation": "have/give more control over... 用来表达产品功能给用户更多可控性。",
-        "realContext": "产品更新、创作者工具、SaaS 功能说明。",
-        "usage": "用于说明一个新功能让用户能调整某个结果或流程。",
-        "whenNotToUse": "如果功能只是展示信息，并不允许用户改变结果，就不要用 control over。",
+        "expression": "This is starting to become scope creep.",
+        "translation": "这开始有点范围蔓延了。",
+        "shortExplanation": "scope creep 指项目需求不断外扩，超过原本边界。",
+        "realContext": "项目管理、自由职业、产品讨论。",
+        "usage": "用于提醒团队收住范围，并回到原始目标。",
+        "whenNotToUse": "不要把它当作拒绝一切新想法的借口。",
         "vocabulary": [
           {
-            "term": "control over",
-            "meaning": "对某事的控制权。"
+            "term": "scope",
+            "meaning": "项目范围。"
           },
           {
-            "term": "look",
-            "meaning": "呈现方式、视觉效果。"
+            "term": "creep",
+            "meaning": "缓慢蔓延。"
           }
         ],
-        "grammarPoints": [
-          {
-            "point": "give someone more control over + noun clause",
-            "explanation": "over 后面可以接 how/what/when 引导的内容。"
-          }
-        ],
+        "grammarPoints": [],
         "examples": [
           {
-            "original": "The new dashboard gives editors more control over when posts go live.",
-            "translation": "新的仪表盘让编辑能更好地控制内容何时上线。"
+            "original": "Adding a dashboard now would be scope creep for this sprint.",
+            "translation": "现在加仪表盘会让这个 sprint 的范围蔓延。"
           }
         ],
-        "nuance": "语气偏产品发布，强调用户自主权。",
-        "aiNote": "来自 YouTube 对 Shorts 自定义缩略图功能的说明。",
+        "nuance": "starting to become 比直接说 is scope creep 更缓和。",
+        "aiNote": "这是保护工作边界的高频表达。",
         "tags": [
           "Business",
           "project"
-        ],
-        "updatedAt": "2026-08-04T08:00:00+08:00",
-        "updatedDate": "2026-08-04",
-        "updateStatus": "updated-today"
+        ]
       },
       {
         "page": "language",
         "source": "language",
         "category": "Language",
-        "sourceName": "Google Search Blog",
-        "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-        "sourceType": "official product blog",
-        "author": "",
-        "publishedAt": "2026-07-28",
+        "sourceName": "OpenAI",
+        "sourceUrl": "https://openai.com/index/building-abundant-intelligence/",
+        "sourceType": "official company news",
+        "author": "Sarah Friar",
+        "publishedAt": "2026-07-31",
         "id": "en-practical-pushback",
         "language": "English",
         "contentType": "Expression",
         "difficulty": "Upper-intermediate",
-        "expression": "Make the most of your time offline.",
-        "translation": "充分利用离线生活中的时间。",
-        "shortExplanation": "make the most of... 表示把某个资源或机会用到最好。",
-        "realContext": "生活方式建议、产品文案、学习规划。",
-        "usage": "用于鼓励用户更有效地利用时间、机会、工具或场景。",
-        "whenNotToUse": "它偏积极建议，不适合严肃风险提示。",
+        "expression": "The real cost is the cost of a successful outcome.",
+        "translation": "真正的成本，是成功完成一个结果的成本。",
+        "shortExplanation": "用 real cost 把讨论从表面价格拉到完整结果。",
+        "realContext": "AI 工具评估、预算讨论、团队复盘。",
+        "usage": "当你想说明单价不是唯一指标，返工、监督和错误也要算进去时使用。",
+        "whenNotToUse": "如果只是比较商品标价，不需要把 outcome 说得这么抽象。",
         "vocabulary": [
           {
-            "term": "make the most of",
-            "meaning": "充分利用。"
-          },
-          {
-            "term": "offline",
-            "meaning": "离线的、现实生活中的。"
+            "term": "successful outcome",
+            "meaning": "成功完成的结果，而不是中间步骤。"
           }
         ],
         "grammarPoints": [
           {
-            "point": "make the most of + noun",
-            "explanation": "of 后接要被充分利用的对象。"
+            "point": "The real cost is...",
+            "explanation": "用来重新定义一个看似简单的指标。"
           }
         ],
         "examples": [
           {
-            "original": "Use the template to make the most of a short planning session.",
-            "translation": "用这个模板充分利用一次很短的规划时间。"
+            "original": "The real cost is the cost of a successful outcome, including retries and review time.",
+            "translation": "真正的成本，是包含重试和复核时间在内的成功结果成本。"
           }
         ],
-        "nuance": "比 use 更有“不要浪费机会”的感觉。",
-        "aiNote": "来自 Google Search 对 AI Mode 线下活动场景的产品文案。",
+        "nuance": "这句话适合正式分析，语气比 cheaper is better 更成熟。",
+        "aiNote": "来源语境来自 OpenAI 对 AI 使用成本的官方解释。",
         "tags": [
           "Business",
           "AI"
-        ],
-        "updatedAt": "2026-08-04T08:00:00+08:00",
-        "updatedDate": "2026-08-04",
-        "updateStatus": "updated-today"
+        ]
       },
       {
         "page": "language",
         "source": "language",
         "category": "Language",
-        "sourceName": "Google Search Blog",
-        "sourceUrl": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-        "sourceType": "official product blog",
+        "sourceName": "",
+        "sourceUrl": "",
+        "sourceType": "editorial lesson",
         "author": "",
-        "publishedAt": "2026-07-28",
+        "publishedAt": "",
         "id": "en-exam-concession",
         "language": "English",
         "contentType": "Exam",
         "difficulty": "Upper-intermediate",
-        "expression": "It might sound counterintuitive, but Search can help you unplug.",
-        "translation": "这听起来可能有点反直觉，但搜索可以帮助你从线上抽离。",
-        "shortExplanation": "It might sound..., but... 是写作里很自然的让步转折结构。",
-        "realContext": "考试作文、产品介绍、观点文章开头。",
-        "usage": "用于先承认读者可能觉得奇怪，再提出真正观点。",
-        "whenNotToUse": "如果前后没有反差，不要硬套 counterintuitive。",
+        "expression": "While convenience matters, trust is the real barrier.",
+        "translation": "便利性固然重要，但信任才是真正的障碍。",
+        "shortExplanation": "while 引出让步，主句放真正观点。",
+        "realContext": "CET 写作、趋势分析、报告段落。",
+        "usage": "用于让论证显得平衡，但重点仍然清楚。",
+        "whenNotToUse": "如果前后两点没有真实对比，就不要硬套 while。",
         "vocabulary": [
           {
-            "term": "counterintuitive",
-            "meaning": "反直觉的。"
-          },
-          {
-            "term": "unplug",
-            "meaning": "从电子设备或线上状态中抽离。"
+            "term": "barrier",
+            "meaning": "阻碍、门槛。"
           }
         ],
         "grammarPoints": [
           {
-            "point": "It might sound + adjective, but...",
-            "explanation": "先降低冲突，再引出主张。"
+            "point": "While + clause, main claim",
+            "explanation": "从句让步，主句表达真正立场。"
           }
         ],
         "examples": [
           {
-            "original": "It might sound counterintuitive, but a shorter workflow can produce better reviews.",
-            "translation": "这听起来可能反直觉，但更短的流程可能带来更好的审核。"
+            "original": "While speed matters, consistency is what makes the workflow usable.",
+            "translation": "速度固然重要，但一致性才让这个工作流真正可用。"
           }
         ],
-        "nuance": "比 however 更口语化，也更适合文章开头。",
-        "aiNote": "来自 Google Search 文章对 AI Mode 与线下活动关系的表达。",
+        "nuance": "这个结构能避免作文里只会说 however。",
+        "aiNote": "适合把考试句型迁移到真实分析表达。",
         "tags": [
           "Exam",
           "argument"
-        ],
-        "updatedAt": "2026-08-04T08:00:00+08:00",
-        "updatedDate": "2026-08-04",
-        "updateStatus": "updated-today"
+        ]
       }
     ],
     "korean": [
@@ -1549,11 +1501,11 @@
       }
     ]
   },
-  "dailyVersion": "2026-08-04.1",
+  "dailyVersion": "2026-08-01.1",
   "dailySummary": {
-    "updatedToday": 14,
+    "updatedToday": 19,
     "focus": 1,
     "observe": 3,
-    "language": 5
+    "language": 10
   }
 }
